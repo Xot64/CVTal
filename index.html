@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dmitry Tal — Unity Gameplay Developer portfolio" />
+  <title>Dmitry Tal - unity game developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="XOT Games home">
+        <span>
+          <strong>Dmitry Tal</strong>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#museum" data-i18n="nav.museum">Museum</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language selector">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="he">HE</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">UNITY GAMEPLAY DEVELOPER</p>
+          <h1 data-i18n="hero.title">Original gameplay systems from concept to working prototype.</h1>
+          <p class="hero-text" data-i18n="hero.text">
+            Commercial prototypes, interactive museum installations and multiplayer WebGL projects.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="hero.projects">View projects</a>
+            <a class="button" href="resume.pdf" target="_blank" rel="noopener" data-i18n="hero.resume">Open résumé</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker" data-i18n="about.kicker">ABOUT</p>
+          <h2 data-i18n="about.title">Gameplay programming, game design and rapid prototyping.</h2>
+        </div>
+        <div>
+          <p data-i18n="about.text">
+            I create original mechanics from scratch, define visual direction, collaborate with artists and implement complete Unity prototypes.
+          </p>
+
+          <div class="what-i-do">
+            <article><strong data-i18n="about.card1.title">Gameplay Design</strong><span data-i18n="about.card1.text">Mechanics, progression and game loops.</span></article>
+            <article><strong data-i18n="about.card2.title">Gameplay Programming</strong><span data-i18n="about.card2.text">Unity, C#, UI and game systems.</span></article>
+            <article><strong data-i18n="about.card3.title">Interactive Systems</strong><span data-i18n="about.card3.text">Motion tracking, AR and museum installations.</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker" data-i18n="projects.kicker">PORTFOLIO</p>
+            <h2 data-i18n="projects.title">Selected projects</h2>
+          </div>
+          <p data-i18n="projects.subtitle">A compact selection of commercial and personal work.</p>
+        </div>
+
+        <div class="nda-notice">
+          <span class="lock">🔒</span>
+          <p data-i18n="projects.nda">
+            Most commercial projects were developed under NDA. Gameplay videos may be shown, but source code and project files cannot be published.
+          </p>
+        </div>
+
+        <div id="featuredProjects" class="project-grid"></div>
+
+        <div class="more-wrap">
+          <button id="moreProjectsButton" class="button more-button" type="button" aria-expanded="false">
+            <span data-i18n="projects.more">More projects</span>
+            <span class="chevron">⌄</span>
+          </button>
+        </div>
+
+        <div id="moreProjects" class="project-grid project-grid-more" hidden></div>
+      </div>
+    </section>
+
+    <section id="museum" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker" data-i18n="museum.kicker">INTERACTIVE SYSTEMS</p>
+            <h2 data-i18n="museum.title">Museum and exhibition projects</h2>
+          </div>
+          <p data-i18n="museum.text">Unity applications using motion tracking, eye tracking, Orbbec cameras, AR and hardware integration.</p>
+        </div>
+
+        <article class="museum-card">
+          <img src="assets/images/museum.svg" alt="Museum projects placeholder" />
+          <div>
+            <div class="tags">
+              <span>Unity</span><span>Orbbec</span><span>Eye Tracking</span><span>AR</span>
+            </div>
+            <p data-i18n="museum.card">Replace this placeholder with a strong video cover or a photo of a real installation in use.</p>
+            <button class="button disabled" type="button" disabled data-i18n="common.videoSoon">Video link will be added</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker" data-i18n="experience.kicker">BACKGROUND</p>
+            <h2 data-i18n="experience.title">Experience</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <div class="time-label">Freelance</div>
+            <div>
+              <h3 data-i18n="experience.freelance.title">Unity Gameplay Developer / Technical Game Designer</h3>
+              <p data-i18n="experience.freelance.text">Created original slot-machine concepts and mini-games from scratch, defined visual direction and implemented complete prototypes in Unity using C#.</p>
+            </div>
+          </article>
+
+          <article>
+            <div class="time-label">ADe</div>
+            <div>
+              <h3 data-i18n="experience.ade.title">Unity Developer — Interactive Exhibits</h3>
+              <p data-i18n="experience.ade.text">Developed interactive museum applications using motion tracking, eye tracking, AR and hardware integration.</p>
+            </div>
+          </article>
+
+          <article>
+            <div class="time-label">ASM</div>
+            <div>
+              <h3 data-i18n="experience.asm.title">Automation Software Engineer</h3>
+              <p data-i18n="experience.asm.text">Worked with PLC, FBD, C++, HMI, SCADA and Modbus in industrial automation projects.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker" data-i18n="contact.kicker">CONTACT</p>
+          <h2 data-i18n="contact.title">Let’s build something interactive.</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:taldima1990@gmail.com">taldima1990@gmail.com</a>
+          <a href="https://www.linkedin.com/in/dmitrital" target="_blank" rel="noopener">LinkedIn</a>
+          <span data-i18n="contact.location">Israel</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Dmitry Tal
+  </footer>
+
+  <div id="videoModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="videoTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <h3 id="videoTitle"></h3>
+      <div class="video-frame">
+        <p data-i18n="common.videoPlaceholder">Insert YouTube embed here.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

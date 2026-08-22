@@ -1,0 +1,152 @@
+[
+  {
+    "id": "jewellery",
+    "title": "Jewellery",
+    "image": "assets/images/jewellery.svg",
+    "featured": true,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Crafting",
+      "Gameplay Design"
+    ],
+    "content": {
+      "en": {
+        "game": "Collect metals and gemstones, create an alloy and place gemstones to craft a ring.",
+        "role": "Created the entire concept from scratch, including the gameplay loop, unique mechanics and visual direction, then implemented the complete prototype.",
+        "tech": "Unity, C#, UI, animation, economy and crafting systems."
+      },
+      "ru": {
+        "game": "Игрок собирает металлы и драгоценные камни, подбирает сплав и размещает камни, создавая кольцо.",
+        "role": "Полностью придумал проект с нуля: игровой цикл, уникальные механики и визуальное направление, после чего реализовал весь прототип.",
+        "tech": "Unity, C#, UI, анимация, экономика и система крафта."
+      },
+      "he": {
+        "game": "איסוף מתכות ואבני חן, יצירת סגסוגת והצבת אבנים ליצירת טבעת.",
+        "role": "יצרתי את הקונספט כולו מאפס — לולאת המשחק, המכניקות הייחודיות והכיוון החזותי — ומימשתי את אב־הטיפוס המלא.",
+        "tech": "Unity, C#, ממשק משתמש, אנימציה, כלכלה ומערכת Crafting."
+      }
+    }
+  },
+  {
+    "id": "island",
+    "title": "Island Slots",
+    "image": "assets/images/island.png",
+    "featured": true,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Economy",
+      "Building"
+    ],
+    "content": {
+      "en": {
+        "game": "Earn money, buy tools, clear the island, build houses and generate passive income.",
+        "role": "Designed the project from scratch and implemented progression, tools, terrain clearing, construction and passive-income systems.",
+        "tech": "Unity, C#, economy, progression, tools, building systems, pixel-art direction."
+      },
+      "ru": {
+        "game": "Игрок зарабатывает деньги, покупает инструменты, очищает остров, строит дома и получает пассивный доход.",
+        "role": "Придумал проект с нуля и реализовал прогрессию, инструменты, очистку территории, строительство и пассивный доход.",
+        "tech": "Unity, C#, экономика, прогрессия, инструменты, строительство, направление пиксель-арта."
+      },
+      "he": {
+        "game": "הרווחת כסף, רכישת כלים, ניקוי האי, בניית בתים ויצירת הכנסה פסיבית.",
+        "role": "תכננתי את הפרויקט מאפס ומימשתי התקדמות, כלים, ניקוי שטח, בנייה והכנסה פסיבית.",
+        "tech": "Unity, C#, כלכלה, התקדמות, כלים, בנייה וכיוון Pixel Art."
+      }
+    }
+  },
+  {
+    "id": "crispr",
+    "title": "CRISPR-Cas",
+    "image": "assets/images/crispr.svg",
+    "featured": true,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Puzzle",
+      "Educational Gameplay"
+    ],
+    "content": {
+      "en": {
+        "game": "Reach a target bacteria level and edit nucleotide sequences through deletion and insertion mechanics.",
+        "role": "Created the scientific theme, gameplay concept, balancing logic and complete prototype implementation.",
+        "tech": "Unity, C#, puzzle logic, educational mechanics, UI."
+      },
+      "ru": {
+        "game": "Игрок достигает нужного уровня бактерий и редактирует нуклеотидные последовательности через удаление и вставку.",
+        "role": "Придумал научную тему, игровую концепцию, баланс и полностью реализовал прототип.",
+        "tech": "Unity, C#, логика головоломки, образовательные механики, UI."
+      },
+      "he": {
+        "game": "הגעה לרמת חיידקים רצויה ועריכת רצפי נוקלאוטידים באמצעות מחיקה והוספה.",
+        "role": "יצרתי את הנושא המדעי, הקונספט, האיזון ומימשתי את אב־הטיפוס המלא.",
+        "tech": "Unity, C#, לוגיקת חידות, מכניקות לימודיות וממשק משתמש."
+      }
+    }
+  },
+  {
+    "id": "word",
+    "title": "Word From Word",
+    "image": "assets/images/word.svg",
+    "featured": true,
+    "nda": false,
+    "tags": [
+      "Unity",
+      "C#",
+      "WebGL",
+      "Multiplayer"
+    ],
+    "content": {
+      "en": {
+        "game": "A two-player word game currently being developed as the foundation of a larger online mini-game platform.",
+        "role": "Responsible for architecture, gameplay, networking, UI and WebGL deployment.",
+        "tech": "Unity, C#, WebGL, multiplayer networking, JavaScript integration."
+      },
+      "ru": {
+        "game": "Сетевая игра для двух игроков, которая развивается как основа будущей площадки с простыми онлайн-играми.",
+        "role": "Отвечаю за архитектуру, игровой процесс, сеть, UI и WebGL-развёртывание.",
+        "tech": "Unity, C#, WebGL, сетевое взаимодействие, интеграция JavaScript."
+      },
+      "he": {
+        "game": "משחק מילים לשני שחקנים הנמצא בפיתוח כבסיס לפלטפורמת מיני־משחקים מקוונת.",
+        "role": "אחראי על הארכיטקטורה, המשחקיות, הרשת, הממשק ופריסת WebGL.",
+        "tech": "Unity, C#, WebGL, רשת מרובת משתתפים ואינטגרציית JavaScript."
+      }
+    }
+  },
+  {
+    "id": "pirate",
+    "title": "Pirate Map",
+    "image": "assets/images/pirate.svg",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Timing",
+      "Mini-game"
+    ],
+    "content": {
+      "en": {
+        "game": "Collect map fragments, get the pirate drunk and carefully retrieve the map while he sleeps.",
+        "role": "Designed the theme, interaction sequence, timing mechanics and full prototype.",
+        "tech": "Unity, C#, UI, timing and state systems."
+      },
+      "ru": {
+        "game": "Игрок собирает части карты, напаивает пирата и аккуратно забирает карту, пока тот спит.",
+        "role": "Придумал тему, последовательность взаимодействий, механику тайминга и реализовал весь прототип.",
+        "tech": "Unity, C#, UI, тайминги и системы состояний."
+      },
+      "he": {
+        "game": "איסוף חלקי מפה, השקיית הפיראט ולקיחת המפה בזהירות בזמן שהוא ישן.",
+        "role": "עיצבתי את הנושא, רצף האינטראקציות, מכניקת התזמון ומימשתי את אב־הטיפוס המלא.",
+        "tech": "Unity, C#, ממשק משתמש, תזמון ומערכות מצבים."
+      }
+    }
+  }
+]
