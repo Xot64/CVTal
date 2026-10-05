@@ -32,7 +32,7 @@
   {
     "id": "island",
     "title": "Island Slots",
-    "image": "assets/images/island.png",
+    "image": "assets/images/island.svg",
     "featured": true,
     "nda": true,
     "tags": [

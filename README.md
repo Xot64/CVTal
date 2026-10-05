@@ -1,4 +1,4 @@
-# XOT Games Portfolio
+# Dmitry Tal — Portfolio
 
 Static GitHub Pages portfolio for Dmitry Tal.
 
