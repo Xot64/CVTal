@@ -90,8 +90,8 @@
     }
   },
   {
-    "id": "word",
-    "title": "Word From Word",
+    "id": "room42",
+    "title": "Room42",
     "image": "assets/images/word.svg",
     "featured": true,
     "nda": false,
@@ -99,23 +99,24 @@
       "Unity",
       "C#",
       "WebGL",
-      "Multiplayer"
+      "WebSocket",
+      "Architecture"
     ],
     "content": {
       "en": {
-        "game": "A two-player word game currently being developed as the foundation of a larger online mini-game platform.",
-        "role": "Responsible for architecture, gameplay, networking, UI and WebGL deployment.",
-        "tech": "Unity, C#, WebGL, multiplayer networking, JavaScript integration."
+        "game": "In development — a modular platform for simple two-player games, designed for WebGL first.",
+        "role": "Designing the application architecture, rooms and game sessions, networking abstractions and independent game modules.",
+        "tech": "Unity, C#, WebGL, WebSocket, EventBus, transport and session abstractions."
       },
       "ru": {
-        "game": "Сетевая игра для двух игроков, которая развивается как основа будущей площадки с простыми онлайн-играми.",
-        "role": "Отвечаю за архитектуру, игровой процесс, сеть, UI и WebGL-развёртывание.",
-        "tech": "Unity, C#, WebGL, сетевое взаимодействие, интеграция JavaScript."
+        "game": "В разработке — модульная платформа для простых игр на двоих с приоритетом WebGL.",
+        "role": "Проектирую архитектуру приложения, комнаты и игровые сессии, сетевые абстракции и независимые игровые модули.",
+        "tech": "Unity, C#, WebGL, WebSocket, EventBus, абстракции транспорта и игровых сессий."
       },
       "he": {
-        "game": "משחק מילים לשני שחקנים הנמצא בפיתוח כבסיס לפלטפורמת מיני־משחקים מקוונת.",
-        "role": "אחראי על הארכיטקטורה, המשחקיות, הרשת, הממשק ופריסת WebGL.",
-        "tech": "Unity, C#, WebGL, רשת מרובת משתתפים ואינטגרציית JavaScript."
+        "game": "בפיתוח — פלטפורמה מודולרית למשחקים פשוטים לשני שחקנים, עם WebGL כפלטפורמה ראשונה.",
+        "role": "מתכנן את ארכיטקטורת האפליקציה, חדרים וסשנים, שכבות רשת ומודולי משחק עצמאיים.",
+        "tech": "Unity, C#, WebGL, WebSocket, EventBus וארכיטקטורת transport/session."
       }
     }
   },
@@ -146,6 +147,37 @@
         "game": "איסוף חלקי מפה, השקיית הפיראט ולקיחת המפה בזהירות בזמן שהוא ישן.",
         "role": "עיצבתי את הנושא, רצף האינטראקציות, מכניקת התזמון ומימשתי את אב־הטיפוס המלא.",
         "tech": "Unity, C#, ממשק משתמש, תזמון ומערכות מצבים."
+      }
+    }
+  },
+  {
+    "id": "elecot",
+    "title": "EleCoT",
+    "image": "assets/images/museum.svg",
+    "featured": true,
+    "nda": false,
+    "tags": [
+      "Unity",
+      "C#",
+      "WebGL",
+      "Android",
+      "NUnit"
+    ],
+    "content": {
+      "en": {
+        "game": "In development — an elevator construction management application for projects, employees, work stages, tasks and comments.",
+        "role": "Designed a service/repository architecture, role-based workflow, local JSON persistence and offline change synchronization.",
+        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON persistence, NUnit."
+      },
+      "ru": {
+        "game": "В разработке — приложение для управления монтажом лифтов: объекты, сотрудники, этапы работ, задачи и комментарии.",
+        "role": "Спроектировал сервисную и repository-архитектуру, ролевую модель, локальное JSON-хранилище и синхронизацию офлайн-изменений.",
+        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON, NUnit."
+      },
+      "he": {
+        "game": "בפיתוח — אפליקציה לניהול פרויקטים של התקנת מעליות, עובדים, שלבי עבודה, משימות ותגובות.",
+        "role": "תכננתי ארכיטקטורת services/repositories, תהליך מבוסס תפקידים, שמירה מקומית ב-JSON וסנכרון שינויים אופליין.",
+        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON ו-NUnit."
       }
     }
   }

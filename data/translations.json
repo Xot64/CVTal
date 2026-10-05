@@ -10,14 +10,14 @@
     "hero": {
       "eyebrow": "UNITY GAMEPLAY DEVELOPER",
       "title": "Original gameplay systems from concept to working prototype.",
-      "text": "Commercial prototypes, interactive museum installations and multiplayer WebGL projects.",
+      "text": "Commercial gameplay prototypes, interactive museum installations and Unity projects in development.",
       "projects": "View projects",
       "resume": "Open résumé"
     },
     "about": {
       "kicker": "ABOUT",
       "title": "Gameplay programming, game design and rapid prototyping.",
-      "text": "I create original mechanics from scratch, define visual direction, collaborate with artists and implement complete Unity prototypes.",
+      "text": "I build Unity prototypes from concept to implementation: gameplay mechanics, application architecture, UI and interactive systems. My background also includes museum installations and industrial automation.",
       "card1": {
         "title": "Gameplay Design",
         "text": "Mechanics, progression and game loops."
@@ -89,14 +89,14 @@
     "hero": {
       "eyebrow": "UNITY GAMEPLAY DEVELOPER",
       "title": "Оригинальные игровые системы: от идеи до рабочего прототипа.",
-      "text": "Коммерческие прототипы, интерактивные музейные инсталляции и сетевые WebGL-проекты.",
+      "text": "Коммерческие игровые прототипы, интерактивные музейные инсталляции и собственные Unity-проекты в разработке.",
       "projects": "Смотреть проекты",
       "resume": "Открыть резюме"
     },
     "about": {
       "kicker": "ОБО МНЕ",
       "title": "Программирование игрового процесса, геймдизайн и быстрое прототипирование.",
-      "text": "Я придумываю механики с нуля, задаю визуальное направление, сотрудничаю с художниками и полностью реализую прототипы в Unity.",
+      "text": "Я создаю проекты на Unity от концепции до реализации: игровые механики, архитектуру приложений, UI и интерактивные системы. Также имею опыт музейных инсталляций и промышленной автоматизации.",
       "card1": {
         "title": "Геймдизайн",
         "text": "Механики, прогрессия и игровые циклы."
@@ -168,14 +168,14 @@
     "hero": {
       "eyebrow": "מפתח UNITY GAMEPLAY",
       "title": "מערכות משחק מקוריות — מרעיון ועד אב־טיפוס עובד.",
-      "text": "אבות־טיפוס מסחריים, מיצגים אינטראקטיביים ופרויקטי WebGL מרובי משתתפים.",
+      "text": "אבות־טיפוס מסחריים, מיצגים אינטראקטיביים ופרויקטי Unity עצמאיים הנמצאים בפיתוח.",
       "projects": "צפייה בפרויקטים",
       "resume": "פתיחת קורות חיים"
     },
     "about": {
       "kicker": "אודות",
       "title": "תכנות משחקיות, עיצוב משחקים ופיתוח מהיר של אבות־טיפוס.",
-      "text": "אני יוצר מכניקות מאפס, מגדיר כיוון חזותי, עובד עם אמנים ומממש אבות־טיפוס מלאים ב־Unity.",
+      "text": "אני מפתח פרויקטים ב-Unity משלב הרעיון ועד למימוש: מכניקות משחק, ארכיטקטורת אפליקציה, UI ומערכות אינטראקטיביות. יש לי גם ניסיון במיצגים מוזיאליים ובאוטומציה תעשייתית.",
       "card1": {
         "title": "עיצוב משחקים",
         "text": "מכניקות, התקדמות ולולאות משחק."
