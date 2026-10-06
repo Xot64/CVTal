@@ -92,7 +92,7 @@
   {
     "id": "room42",
     "title": "Room42",
-    "image": "assets/images/Room42.svg",
+    "image": "assets/images/Room42.png",
     "featured": true,
     "nda": false,
     "tags": [
@@ -123,7 +123,7 @@
   {
     "id": "elecot",
     "title": "EleCoT",
-    "image": "assets/images/Elevator.png",
+    "image": "assets/images/Elecot.png",
     "featured": true,
     "nda": false,
     "tags": [
