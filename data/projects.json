@@ -121,36 +121,6 @@
     }
   },
   {
-    "id": "pirate",
-    "title": "Pirate Map",
-    "image": "assets/images/pirate.png",
-    "featured": false,
-    "nda": true,
-    "tags": [
-      "Unity",
-      "C#",
-      "Timing",
-      "Mini-game"
-    ],
-    "content": {
-      "en": {
-        "game": "Collect map fragments, get the pirate drunk and carefully retrieve the map while he sleeps.",
-        "role": "Designed the theme, interaction sequence, timing mechanics and full prototype.",
-        "tech": "Unity, C#, UI, timing and state systems."
-      },
-      "ru": {
-        "game": "Игрок собирает части карты, напаивает пирата и аккуратно забирает карту, пока тот спит.",
-        "role": "Придумал тему, последовательность взаимодействий, механику тайминга и реализовал весь прототип.",
-        "tech": "Unity, C#, UI, тайминги и системы состояний."
-      },
-      "he": {
-        "game": "איסוף חלקי מפה, השקיית הפיראט ולקיחת המפה בזהירות בזמן שהוא ישן.",
-        "role": "עיצבתי את הנושא, רצף האינטראקציות, מכניקת התזמון ומימשתי את אב־הטיפוס המלא.",
-        "tech": "Unity, C#, ממשק משתמש, תזמון ומערכות מצבים."
-      }
-    }
-  },
-  {
     "id": "elecot",
     "title": "EleCoT",
     "image": "assets/images/Elevator.png",
@@ -178,6 +148,66 @@
         "game": "בפיתוח — אפליקציה לניהול פרויקטים של התקנת מעליות, עובדים, שלבי עבודה, משימות ותגובות.",
         "role": "תכננתי ארכיטקטורת services/repositories, תהליך מבוסס תפקידים, שמירה מקומית ב-JSON וסנכרון שינויים אופליין.",
         "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON ו-NUnit."
+      }
+    }
+  },
+  {
+    "id": "monster",
+    "title": "My Little Monster",
+    "image": "assets/images/Monster.png",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Mini-game",
+      "Gameplay Design"
+    ],
+    "content": {
+      "en": {
+        "game": "Create and modify a monster by combining different body parts and interacting with laboratory-themed mini-games.",
+        "role": "Designed the gameplay concept, interactions and mini-game mechanics and implemented the complete prototype.",
+        "tech": "Unity, C#, UI, animation and gameplay systems."
+      },
+      "ru": {
+        "game": "Игрок создаёт и изменяет монстра, комбинируя различные части тела и взаимодействуя с лабораторными мини-играми.",
+        "role": "Придумал игровую концепцию, взаимодействия и механики мини-игр и реализовал полный прототип.",
+        "tech": "Unity, C#, UI, анимация и игровые системы."
+      },
+      "he": {
+        "game": "יצירה ושינוי של מפלצת באמצעות שילוב חלקי גוף שונים ואינטראקציה עם מיני־משחקים בסגנון מעבדה.",
+        "role": "תכננתי את קונספט המשחק, האינטראקציות ומכניקות המיני־משחקים ומימשתי את אב־הטיפוס המלא.",
+        "tech": "Unity, C#, ממשק משתמש, אנימציה ומערכות משחק."
+      }
+    }
+  },
+  {
+    "id": "phasmaslotia",
+    "title": "Phasmaslotia",
+    "image": "assets/images/Fasma.png",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Mini-game",
+      "Gameplay Design"
+    ],
+    "content": {
+      "en": {
+        "game": "A paranormal-themed slot prototype combining slot gameplay with ghost-hunting interactions and equipment.",
+        "role": "Designed the gameplay concept, paranormal investigation mechanics and interaction flow and implemented the prototype in Unity.",
+        "tech": "Unity, C#, UI, interaction systems and mini-game logic."
+      },
+      "ru": {
+        "game": "Прототип в тематике охоты на призраков, объединяющий слот-механику с поиском паранормальной активности и использованием оборудования.",
+        "role": "Придумал игровую концепцию, механики исследования паранормальной активности и последовательность взаимодействий и реализовал прототип в Unity.",
+        "tech": "Unity, C#, UI, системы взаимодействия и логика мини-игр."
+      },
+      "he": {
+        "game": "אב־טיפוס בנושא חקירת רוחות המשלב משחק Slot עם חיפוש פעילות על־טבעית ושימוש בציוד.",
+        "role": "תכננתי את קונספט המשחק, מכניקות החקירה והאינטראקציות ומימשתי את אב־הטיפוס ב-Unity.",
+        "tech": "Unity, C#, ממשק משתמש, מערכות אינטראקציה ולוגיקת מיני־משחקים."
       }
     }
   }
