@@ -35,6 +35,7 @@ On GitHub Pages it works normally.
 6. Save.
 
 ## Replace placeholders
+
 - Replace SVG project covers in `assets/images/`.
 - Add `resume.pdf` to the root folder.
 - Replace email in `index.html`.
