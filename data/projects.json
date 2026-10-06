@@ -2,7 +2,7 @@
   {
     "id": "jewellery",
     "title": "Jewellery",
-    "image": "assets/images/jewellery.svg",
+    "image": "assets/images/jewelary.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -32,7 +32,7 @@
   {
     "id": "island",
     "title": "Island Slots",
-    "image": "assets/images/island.svg",
+    "image": "assets/images/island.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -62,7 +62,7 @@
   {
     "id": "crispr",
     "title": "CRISPR-Cas",
-    "image": "assets/images/crispr.svg",
+    "image": "assets/images/crispr.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -92,7 +92,7 @@
   {
     "id": "room42",
     "title": "Room42",
-    "image": "assets/images/word.svg",
+    "image": "assets/images/Room42.svg",
     "featured": true,
     "nda": false,
     "tags": [
@@ -123,7 +123,7 @@
   {
     "id": "pirate",
     "title": "Pirate Map",
-    "image": "assets/images/pirate.svg",
+    "image": "assets/images/pirate.png",
     "featured": false,
     "nda": true,
     "tags": [
@@ -153,7 +153,7 @@
   {
     "id": "elecot",
     "title": "EleCoT",
-    "image": "assets/images/museum.svg",
+    "image": "assets/images/Elevator.png",
     "featured": true,
     "nda": false,
     "tags": [
