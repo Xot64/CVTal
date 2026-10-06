@@ -1,0 +1,239 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "museum": "Museum",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "UNITY GAMEPLAY DEVELOPER",
+      "title": "Original gameplay systems from concept to working prototype.",
+      "text": "Commercial gameplay prototypes, interactive museum installations and Unity projects in development.",
+      "projects": "View projects",
+      "resume": "Open résumé"
+    },
+    "about": {
+      "kicker": "ABOUT",
+      "title": "Gameplay programming, game design and rapid prototyping.",
+      "text": "I build Unity prototypes from concept to implementation: gameplay mechanics, application architecture, UI and interactive systems. My background also includes museum installations and industrial automation.",
+      "card1": {
+        "title": "Gameplay Design",
+        "text": "Mechanics, progression and game loops."
+      },
+      "card2": {
+        "title": "Gameplay Programming",
+        "text": "Unity, C#, UI and game systems."
+      },
+      "card3": {
+        "title": "Interactive Systems",
+        "text": "Motion tracking, AR and museum installations."
+      }
+    },
+    "projects": {
+      "kicker": "PORTFOLIO",
+      "title": "Selected projects",
+      "subtitle": "A compact selection of commercial and personal work.",
+      "nda": "Most commercial projects were developed under NDA. Gameplay videos may be shown, but source code and project files cannot be published.",
+      "ndaBadge": "Commercial project — NDA",
+      "more": "More projects",
+      "less": "Hide projects",
+      "watch": "Watch gameplay",
+      "tabs": {
+        "game": "Game",
+        "role": "My role",
+        "tech": "Technologies"
+      }
+    },
+    "museum": {
+      "kicker": "INTERACTIVE SYSTEMS",
+      "title": "Museum and exhibition projects",
+      "text": "Unity applications using motion tracking, eye tracking, Orbbec cameras, AR and hardware integration.",
+      "card": "Replace this placeholder with a strong video cover or a photo of a real installation in use."
+    },
+    "experience": {
+      "kicker": "BACKGROUND",
+      "title": "Experience",
+      "freelance": {
+        "title": "Unity Gameplay Developer / Technical Game Designer",
+        "text": "Created original slot-machine concepts and mini-games from scratch, defined visual direction and implemented complete prototypes in Unity using C#."
+      },
+      "ade": {
+        "title": "Unity Developer — Interactive Exhibits",
+        "text": "Developed interactive museum applications using motion tracking, eye tracking, AR and hardware integration."
+      },
+      "asm": {
+        "title": "Automation Software Engineer",
+        "text": "Worked with PLC, FBD, C++, HMI, SCADA and Modbus in industrial automation projects."
+      }
+    },
+    "contact": {
+      "kicker": "CONTACT",
+      "title": "Let’s build something interactive.",
+      "location": "Israel"
+    },
+    "common": {
+      "videoSoon": "Video link will be added",
+      "videoPlaceholder": "Video coming soon."
+    }
+  },
+  "ru": {
+    "nav": {
+      "about": "Обо мне",
+      "projects": "Проекты",
+      "museum": "Музеи",
+      "experience": "Опыт",
+      "contact": "Контакты"
+    },
+    "hero": {
+      "eyebrow": "UNITY GAMEPLAY DEVELOPER",
+      "title": "Оригинальные игровые системы: от идеи до рабочего прототипа.",
+      "text": "Коммерческие игровые прототипы, интерактивные музейные инсталляции и собственные Unity-проекты в разработке.",
+      "projects": "Смотреть проекты",
+      "resume": "Открыть резюме"
+    },
+    "about": {
+      "kicker": "ОБО МНЕ",
+      "title": "Программирование игрового процесса, геймдизайн и быстрое прототипирование.",
+      "text": "Я создаю проекты на Unity от концепции до реализации: игровые механики, архитектуру приложений, UI и интерактивные системы. Также имею опыт музейных инсталляций и промышленной автоматизации.",
+      "card1": {
+        "title": "Геймдизайн",
+        "text": "Механики, прогрессия и игровые циклы."
+      },
+      "card2": {
+        "title": "Gameplay Programming",
+        "text": "Unity, C#, UI и игровые системы."
+      },
+      "card3": {
+        "title": "Интерактивные системы",
+        "text": "Захват движений, AR и музейные инсталляции."
+      }
+    },
+    "projects": {
+      "kicker": "ПОРТФОЛИО",
+      "title": "Избранные проекты",
+      "subtitle": "Компактная подборка коммерческих и личных работ.",
+      "nda": "Большинство коммерческих проектов создавалось по NDA. Видео игрового процесса можно показывать, но исходный код и файлы проектов публиковать нельзя.",
+      "ndaBadge": "Коммерческий проект — NDA",
+      "more": "Ещё проекты",
+      "less": "Скрыть проекты",
+      "watch": "Смотреть геймплей",
+      "tabs": {
+        "game": "Об игре",
+        "role": "Мои задачи",
+        "tech": "Технологии"
+      }
+    },
+    "museum": {
+      "kicker": "ИНТЕРАКТИВНЫЕ СИСТЕМЫ",
+      "title": "Музейные и выставочные проекты",
+      "text": "Приложения Unity с захватом движений, отслеживанием взгляда, камерами Orbbec, AR и интеграцией оборудования.",
+      "card": "Замените заглушку сильной обложкой видео или фотографией реальной инсталляции в работе."
+    },
+    "experience": {
+      "kicker": "ОПЫТ",
+      "title": "Опыт работы",
+      "freelance": {
+        "title": "Unity Gameplay Developer / Technical Game Designer",
+        "text": "С нуля создавал концепции слот-машин и мини-игр, задавал визуальное направление и полностью реализовывал прототипы в Unity на C#."
+      },
+      "ade": {
+        "title": "Unity Developer — интерактивные экспонаты",
+        "text": "Разрабатывал музейные приложения с захватом движений, отслеживанием взгляда, AR и интеграцией оборудования."
+      },
+      "asm": {
+        "title": "Инженер-программист АСУ",
+        "text": "Работал с PLC, FBD, C++, HMI, SCADA и Modbus в проектах промышленной автоматизации."
+      }
+    },
+    "contact": {
+      "kicker": "КОНТАКТЫ",
+      "title": "Давайте создадим что-нибудь интерактивное.",
+      "location": "Израиль"
+    },
+    "common": {
+      "videoSoon": "Ссылка на видео будет добавлена",
+      "videoPlaceholder": "Видео скоро будет добавлено."
+    }
+  },
+  "he": {
+    "nav": {
+      "about": "אודות",
+      "projects": "פרויקטים",
+      "museum": "מוזיאונים",
+      "experience": "ניסיון",
+      "contact": "יצירת קשר"
+    },
+    "hero": {
+      "eyebrow": "מפתח UNITY GAMEPLAY",
+      "title": "מערכות משחק מקוריות — מרעיון ועד אב־טיפוס עובד.",
+      "text": "אבות־טיפוס מסחריים, מיצגים אינטראקטיביים ופרויקטי Unity עצמאיים הנמצאים בפיתוח.",
+      "projects": "צפייה בפרויקטים",
+      "resume": "פתיחת קורות חיים"
+    },
+    "about": {
+      "kicker": "אודות",
+      "title": "תכנות משחקיות, עיצוב משחקים ופיתוח מהיר של אבות־טיפוס.",
+      "text": "אני מפתח פרויקטים ב-Unity משלב הרעיון ועד למימוש: מכניקות משחק, ארכיטקטורת אפליקציה, UI ומערכות אינטראקטיביות. יש לי גם ניסיון במיצגים מוזיאליים ובאוטומציה תעשייתית.",
+      "card1": {
+        "title": "עיצוב משחקים",
+        "text": "מכניקות, התקדמות ולולאות משחק."
+      },
+      "card2": {
+        "title": "תכנות Gameplay",
+        "text": "Unity, C#, ממשקי משתמש ומערכות משחק."
+      },
+      "card3": {
+        "title": "מערכות אינטראקטיביות",
+        "text": "לכידת תנועה, AR ומיצגים מוזיאליים."
+      }
+    },
+    "projects": {
+      "kicker": "תיק עבודות",
+      "title": "פרויקטים נבחרים",
+      "subtitle": "מבחר תמציתי של עבודות מסחריות ואישיות.",
+      "nda": "רוב הפרויקטים המסחריים פותחו תחת NDA. ניתן להציג סרטוני משחק, אך לא ניתן לפרסם קוד מקור או קובצי פרויקט.",
+      "ndaBadge": "פרויקט מסחרי — NDA",
+      "more": "פרויקטים נוספים",
+      "less": "הסתרת פרויקטים",
+      "watch": "צפייה במשחקיות",
+      "tabs": {
+        "game": "על המשחק",
+        "role": "התפקיד שלי",
+        "tech": "טכנולוגיות"
+      }
+    },
+    "museum": {
+      "kicker": "מערכות אינטראקטיביות",
+      "title": "פרויקטים למוזיאונים ולתערוכות",
+      "text": "יישומי Unity עם לכידת תנועה, מעקב עיניים, מצלמות Orbbec, AR ואינטגרציית חומרה.",
+      "card": "החלף את התמונה הזמנית בכריכת וידאו חזקה או צילום של מיצג אמיתי בפעולה."
+    },
+    "experience": {
+      "kicker": "רקע מקצועי",
+      "title": "ניסיון",
+      "freelance": {
+        "title": "Unity Gameplay Developer / Technical Game Designer",
+        "text": "יצרתי מאפס קונספטים למכונות מזל ולמיני־משחקים, הגדרתי כיוון חזותי ומימשתי אבות־טיפוס מלאים ב־Unity וב־C#."
+      },
+      "ade": {
+        "title": "מפתח Unity — מיצגים אינטראקטיביים",
+        "text": "פיתחתי יישומים למוזיאונים עם לכידת תנועה, מעקב עיניים, AR ואינטגרציית חומרה."
+      },
+      "asm": {
+        "title": "מהנדס תוכנה לאוטומציה",
+        "text": "עבדתי עם PLC, FBD, C++, HMI, SCADA ו־Modbus בפרויקטים של אוטומציה תעשייתית."
+      }
+    },
+    "contact": {
+      "kicker": "יצירת קשר",
+      "title": "בואו נבנה משהו אינטראקטיבי.",
+      "location": "ישראל"
+    },
+    "common": {
+      "videoSoon": "קישור לווידאו יתווסף בהמשך",
+      "videoPlaceholder": "הסרטון יתווסף בקרוב."
+    }
+  }
+}

@@ -35,8 +35,20 @@ On GitHub Pages it works normally.
 6. Save.
 
 ## Replace placeholders
-
 - Replace SVG project covers in `assets/images/`.
 - Add `resume.pdf` to the root folder.
 - Replace email in `index.html`.
 - Add YouTube embed URLs in `script.js`.
+
+## Cover replacement
+Project cover paths are defined in `data/projects.json` under the `image` field.
+Current placeholders:
+- `assets/images/jewellery.svg`
+- `assets/images/island.svg`
+- `assets/images/crispr.svg`
+- `assets/images/room42.svg`
+- `assets/images/elecot.svg`
+- `assets/images/pirate.svg`
+
+You can replace a placeholder with a JPG/PNG and update only the corresponding `image` path in `data/projects.json`.
+Recommended cover ratio: **16:9** (for example 1600x900 or 1280x720).
