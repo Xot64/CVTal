@@ -5,7 +5,8 @@
       "projects": "Projects",
       "museum": "Museum",
       "experience": "Experience",
-      "contact": "Contact"
+      "contact": "Contact",
+      "industrial": "Industrial"
     },
     "hero": {
       "eyebrow": "UNITY GAMEPLAY DEVELOPER",
@@ -76,6 +77,28 @@
     "common": {
       "videoSoon": "Video link will be added",
       "videoPlaceholder": "Video coming soon."
+    },
+    "industrial": {
+      "kicker": "INDUSTRIAL AUTOMATION",
+      "title": "Industrial Automation & Control Systems",
+      "text": "PLC programming, HMI, SCADA, C++, FBD and Modbus. Detailed projects will be added later."
+    },
+    "heroModes": {
+      "games": {
+        "eyebrow": "UNITY GAMEPLAY DEVELOPER",
+        "title": "Original gameplay systems from concept to working prototype.",
+        "text": "Commercial gameplay prototypes, interactive museum installations and Unity projects in development."
+      },
+      "museums": {
+        "eyebrow": "INTERACTIVE SYSTEMS DEVELOPER",
+        "title": "Interactive installations connecting people, software and hardware.",
+        "text": "Unity museum exhibits featuring body tracking, eye tracking, physical controls and device integration."
+      },
+      "industrial": {
+        "eyebrow": "AUTOMATION SOFTWARE ENGINEER",
+        "title": "Industrial automation and interactive control systems.",
+        "text": "Experience with PLC, HMI, SCADA, C++, FBD, Modbus and software integration."
+      }
     }
   },
   "ru": {
@@ -84,7 +107,8 @@
       "projects": "Проекты",
       "museum": "Музеи",
       "experience": "Опыт",
-      "contact": "Контакты"
+      "contact": "Контакты",
+      "industrial": "АСУ"
     },
     "hero": {
       "eyebrow": "UNITY GAMEPLAY DEVELOPER",
@@ -155,6 +179,28 @@
     "common": {
       "videoSoon": "Ссылка на видео будет добавлена",
       "videoPlaceholder": "Видео скоро будет добавлено."
+    },
+    "industrial": {
+      "kicker": "ПРОМЫШЛЕННАЯ АВТОМАТИЗАЦИЯ",
+      "title": "Автоматизация и системы управления",
+      "text": "Программирование ПЛК, HMI, SCADA, C++, FBD и Modbus. Подробные проекты будут добавлены позже."
+    },
+    "heroModes": {
+      "games": {
+        "eyebrow": "UNITY GAMEPLAY DEVELOPER",
+        "title": "Оригинальные игровые системы: от идеи до рабочего прототипа.",
+        "text": "Коммерческие игровые прототипы, интерактивные музейные инсталляции и собственные Unity-проекты в разработке."
+      },
+      "museums": {
+        "eyebrow": "РАЗРАБОТЧИК ИНТЕРАКТИВНЫХ СИСТЕМ",
+        "title": "Интерактивные экспонаты на стыке программирования и оборудования.",
+        "text": "Музейные проекты на Unity: захват движений и взгляда, физические органы управления и интеграция устройств."
+      },
+      "industrial": {
+        "eyebrow": "ИНЖЕНЕР-ПРОГРАММИСТ АСУ",
+        "title": "Промышленная автоматизация и системы управления.",
+        "text": "Опыт работы с PLC, HMI, SCADA, C++, FBD, Modbus и интеграцией программного обеспечения."
+      }
     }
   },
   "he": {
@@ -163,7 +209,8 @@
       "projects": "פרויקטים",
       "museum": "מוזיאונים",
       "experience": "ניסיון",
-      "contact": "יצירת קשר"
+      "contact": "יצירת קשר",
+      "industrial": "אוטומציה"
     },
     "hero": {
       "eyebrow": "מפתח UNITY GAMEPLAY",
@@ -234,6 +281,28 @@
     "common": {
       "videoSoon": "קישור לווידאו יתווסף בהמשך",
       "videoPlaceholder": "הסרטון יתווסף בקרוב."
+    },
+    "industrial": {
+      "kicker": "אוטומציה תעשייתית",
+      "title": "אוטומציה ומערכות בקרה",
+      "text": "תכנות PLC, HMI, SCADA, C++, FBD ו-Modbus. פרויקטים נוספים יתווספו בהמשך."
+    },
+    "heroModes": {
+      "games": {
+        "eyebrow": "מפתח UNITY GAMEPLAY",
+        "title": "מערכות משחק מקוריות — מרעיון ועד אב־טיפוס עובד.",
+        "text": "אבות־טיפוס מסחריים, מיצגים אינטראקטיביים ופרויקטי Unity עצמאיים הנמצאים בפיתוח."
+      },
+      "museums": {
+        "eyebrow": "מפתח מערכות אינטראקטיביות",
+        "title": "מיצגים אינטראקטיביים המחברים אנשים, תוכנה וחומרה.",
+        "text": "מיצגים ב-Unity עם מעקב תנועה ומבט, בקרים פיזיים ושילוב חומרה."
+      },
+      "industrial": {
+        "eyebrow": "מהנדס תוכנה לאוטומציה",
+        "title": "אוטומציה תעשייתית ומערכות בקרה.",
+        "text": "ניסיון עם PLC, HMI, SCADA, C++, FBD, Modbus ושילוב מערכות תוכנה."
+      }
     }
   }
 }
