@@ -33,6 +33,8 @@ function applyPortfolioCopy(lang) {
     if (el) el.textContent = copy[key];
   });
   document.title = `${copy.eyebrow} — Dmitry Tal`;
+  const heroAction = document.querySelector(".hero-actions a");
+  if (heroAction) heroAction.href = window.location.pathname + "#" + (portfolioMode === "museums" ? "museum" : portfolioMode === "industrial" ? "industrial" : "projects");
 }
 function fixSectionLinks() {
   // <base href="../"> keeps shared assets working in subfolders;
@@ -47,15 +49,18 @@ configurePortfolioLayout();
 
 let translations = {};
 let projects = [];
+let museumProjects = [];
 let currentLang = localStorage.getItem("portfolioLang") || "en";
 
 async function loadData(){
-  const [translationsResponse, projectsResponse] = await Promise.all([
+  const [translationsResponse, projectsResponse, museumResponse] = await Promise.all([
     fetch("data/translations.json"),
-    fetch("data/projects.json")
+    fetch("data/projects.json"),
+    fetch("data/museum-projects.json")
   ]);
   translations = await translationsResponse.json();
   projects = await projectsResponse.json();
+  museumProjects = await museumResponse.json();
   renderProjects();
   applyLanguage(currentLang);
 }
@@ -77,12 +82,15 @@ function applyLanguage(lang){
     el.textContent = t(el.dataset.i18n);
   });
 
-  document.querySelectorAll("[data-lang]").forEach(btn=>{
+  
+
+document.querySelectorAll("[data-lang]").forEach(btn=>{
     btn.classList.toggle("active", btn.dataset.lang === lang);
   });
 
   applyPortfolioCopy(lang);
   renderProjects();
+  renderMuseumProjects();
 }
 
 function coverPath(project) {
@@ -129,6 +137,7 @@ function makeProjectCard(project){
   const cover = card.querySelector(".project-card > img");
   cover.addEventListener("error", () => {
     if (cover.getAttribute("src") !== project.image) cover.src = project.image;
+    else { cover.onerror = null; cover.src = "assets/images/museum.svg"; }
   });
   const buttons = card.querySelectorAll(".tab-btn");
   const panels = card.querySelectorAll(".tab-panel");
@@ -161,6 +170,122 @@ function renderProjects(){
   projects.filter(p=>p.featured).forEach(p=>featured.appendChild(makeProjectCard(p)));
   projects.filter(p=>!p.featured).forEach(p=>more.appendChild(makeProjectCard(p)));
 }
+
+
+function renderMuseumProjects() {
+  const container = document.getElementById("museumProjects");
+  if (!container || !translations[currentLang]) return;
+  container.replaceChildren();
+  museumProjects.forEach(project => {
+    const card = document.createElement("article");
+    card.className = "project-card";
+    const img = document.createElement("img");
+    img.src = project.image;
+    img.alt = project.title;
+    img.loading = "lazy";
+    img.addEventListener("error", () => { img.onerror = null; img.src = "assets/images/museum.svg"; });
+    card.appendChild(img);
+    const body = document.createElement("div");
+    body.className = "project-body";
+    const h3 = document.createElement("h3");
+    h3.textContent = project.title;
+    body.appendChild(h3);
+    const tags = document.createElement("div");
+    tags.className = "tags";
+    project.tags.forEach(tag => {
+      const span = document.createElement("span");
+      span.textContent = tag;
+      tags.appendChild(span);
+    });
+    body.appendChild(tags);
+    const tabs = document.createElement("div");
+    tabs.className = "tabs";
+    const panels = [];
+    ["game", "role", "tech"].forEach((key, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "tab-btn" + (index === 0 ? " active" : "");
+      button.textContent = t("museum.tabs." + key);
+      const panel = document.createElement("div");
+      panel.className = "tab-panel" + (index === 0 ? " active" : "");
+      panel.textContent = (project.content[currentLang] || project.content.en)[key];
+      panels.push(panel);
+      button.addEventListener("click", () => {
+        tabs.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        panels.forEach(p => p.classList.remove("active"));
+        button.classList.add("active");
+        panel.classList.add("active");
+      });
+      tabs.appendChild(button);
+    });
+    body.appendChild(tabs);
+    panels.forEach(panel => body.appendChild(panel));
+    const note = document.createElement("p");
+    note.className = "media-pending";
+    note.textContent = t("museum.mediaPending");
+    body.appendChild(note);
+    card.appendChild(body);
+    container.appendChild(card);
+  });
+}
+
+function renderMuseumProjects() {
+  const container = document.getElementById("museumProjects");
+  if (!container || !translations[currentLang]) return;
+  container.replaceChildren();
+  museumProjects.forEach(project => {
+    const card = document.createElement("article");
+    card.className = "project-card";
+    const img = document.createElement("img");
+    img.src = project.image;
+    img.alt = project.title;
+    img.loading = "lazy";
+    img.addEventListener("error", () => { img.onerror = null; img.src = "assets/images/museum.svg"; });
+    card.appendChild(img);
+    const body = document.createElement("div");
+    body.className = "project-body";
+    const h3 = document.createElement("h3");
+    h3.textContent = project.title;
+    body.appendChild(h3);
+    const tags = document.createElement("div");
+    tags.className = "tags";
+    project.tags.forEach(tag => {
+      const span = document.createElement("span");
+      span.textContent = tag;
+      tags.appendChild(span);
+    });
+    body.appendChild(tags);
+    const tabs = document.createElement("div");
+    tabs.className = "tabs";
+    const panels = [];
+    ["game", "role", "tech"].forEach((key, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "tab-btn" + (index === 0 ? " active" : "");
+      button.textContent = t("museum.tabs." + key);
+      const panel = document.createElement("div");
+      panel.className = "tab-panel" + (index === 0 ? " active" : "");
+      panel.textContent = (project.content[currentLang] || project.content.en)[key];
+      panels.push(panel);
+      button.addEventListener("click", () => {
+        tabs.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+        panels.forEach(p => p.classList.remove("active"));
+        button.classList.add("active");
+        panel.classList.add("active");
+      });
+      tabs.appendChild(button);
+    });
+    body.appendChild(tabs);
+    panels.forEach(panel => body.appendChild(panel));
+    const note = document.createElement("p");
+    note.className = "media-pending";
+    note.textContent = t("museum.mediaPending");
+    body.appendChild(note);
+    card.appendChild(body);
+    container.appendChild(card);
+  });
+}
+
 
 document.querySelectorAll("[data-lang]").forEach(btn=>{
   btn.addEventListener("click",()=>applyLanguage(btn.dataset.lang));

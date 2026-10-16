@@ -51,7 +51,13 @@
       "kicker": "INTERACTIVE SYSTEMS",
       "title": "Museum and exhibition projects",
       "text": "Unity applications using motion tracking, eye tracking, Orbbec cameras, AR and hardware integration.",
-      "card": "Replace this placeholder with a strong video cover or a photo of a real installation in use."
+      "card": "Replace this placeholder with a strong video cover or a photo of a real installation in use.",
+      "tabs": {
+        "game": "Exhibit",
+        "role": "My role",
+        "tech": "Technologies"
+      },
+      "mediaPending": "Photos and video will be added later"
     },
     "experience": {
       "kicker": "BACKGROUND",
@@ -153,7 +159,13 @@
       "kicker": "ИНТЕРАКТИВНЫЕ СИСТЕМЫ",
       "title": "Музейные и выставочные проекты",
       "text": "Приложения Unity с захватом движений, отслеживанием взгляда, камерами Orbbec, AR и интеграцией оборудования.",
-      "card": "Замените заглушку сильной обложкой видео или фотографией реальной инсталляции в работе."
+      "card": "Замените заглушку сильной обложкой видео или фотографией реальной инсталляции в работе.",
+      "tabs": {
+        "game": "Экспонат",
+        "role": "Моя работа",
+        "tech": "Технологии"
+      },
+      "mediaPending": "Фото и видео будут добавлены позже"
     },
     "experience": {
       "kicker": "ОПЫТ",
@@ -255,7 +267,13 @@
       "kicker": "מערכות אינטראקטיביות",
       "title": "פרויקטים למוזיאונים ולתערוכות",
       "text": "יישומי Unity עם לכידת תנועה, מעקב עיניים, מצלמות Orbbec, AR ואינטגרציית חומרה.",
-      "card": "החלף את התמונה הזמנית בכריכת וידאו חזקה או צילום של מיצג אמיתי בפעולה."
+      "card": "החלף את התמונה הזמנית בכריכת וידאו חזקה או צילום של מיצג אמיתי בפעולה.",
+      "tabs": {
+        "game": "המיצג",
+        "role": "התפקיד שלי",
+        "tech": "טכנולוגיות"
+      },
+      "mediaPending": "תמונות וסרטונים יתווספו בהמשך"
     },
     "experience": {
       "kicker": "רקע מקצועי",

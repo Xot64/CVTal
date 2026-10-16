@@ -141,3 +141,7 @@ footer{text-align:center;padding:40px 20px;color:var(--muted)}
   .section-head{align-items:start;flex-direction:column}
   html{scroll-padding-top:150px}
 }
+
+/* Museum project cards */
+#museumProjects .project-card img {width:100%;aspect-ratio:16/9;object-fit:cover}
+#museumProjects .media-pending {font-size:.84rem;opacity:.72;margin-top:16px}

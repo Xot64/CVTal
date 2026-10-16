@@ -1,0 +1,169 @@
+[
+  {
+    "id": "diffie-hellman",
+    "title": "Diffie–Hellman",
+    "image": "assets/images/museum-diffie-hellman.jpg",
+    "tags": [
+      "Unity",
+      "Android",
+      "Orbbec",
+      "Body Tracking"
+    ],
+    "content": {
+      "en": {
+        "game": "An interactive explanation of Diffie–Hellman key exchange through mixing colors. Visitors control an avatar that mirrors their movements.",
+        "role": "Developed the Unity Android interactive application and integrated visitor movement tracking using an Orbbec camera.",
+        "tech": "Unity, C#, Android, Orbbec, body tracking"
+      },
+      "ru": {
+        "game": "Интерактивное объяснение обмена ключами Диффи — Хеллмана через смешивание красок. Посетитель управляет аватаром, повторяющим его движения.",
+        "role": "Разработал интерактивное приложение на Unity для Android с отслеживанием движений посетителя через камеру Orbbec.",
+        "tech": "Unity, C#, Android, Orbbec, захват движений"
+      },
+      "he": {
+        "game": "הסבר אינטראקטיבי על החלפת מפתחות דיפי–הלמן באמצעות ערבוב צבעים. המבקר שולט בדמות המחקה את תנועותיו.",
+        "role": "פיתוח יישום אינטראקטיבי ב-Unity לאנדרואיד עם מעקב תנועה באמצעות מצלמת Orbbec.",
+        "tech": "Unity, C#, Android, Orbbec, מעקב תנועה"
+      }
+    }
+  },
+  {
+    "id": "smart-things",
+    "title": "Smart Things & Web Safety",
+    "image": "assets/images/museum-smart-things.jpg",
+    "tags": [
+      "Unity",
+      "WebGL",
+      "Accessibility",
+      "Audio"
+    ],
+    "content": {
+      "en": {
+        "game": "Interactive presentations about smart devices and encryption, with spoken narration for visitors with visual impairments. A physical key unlocks additional information.",
+        "role": "Built interactive Unity WebGL presentations with multilingual content, narration and an interaction with a physical key.",
+        "tech": "Unity, C#, WebGL, audio narration, physical key interaction"
+      },
+      "ru": {
+        "game": "Интерактивные презентации об умных устройствах и шифровании с голосовым сопровождением для посетителей с нарушениями зрения. Физический ключ открывает дополнительные материалы.",
+        "role": "Разработал презентации на Unity WebGL с несколькими языками, озвучиванием и взаимодействием с физическим ключом.",
+        "tech": "Unity, C#, WebGL, озвучивание, взаимодействие с физическим ключом"
+      },
+      "he": {
+        "game": "מצגות אינטראקטיביות על מכשירים חכמים והצפנה, עם קריינות למבקרים עם לקויות ראייה. מפתח פיזי פותח מידע נוסף.",
+        "role": "פיתוח מצגות ב-Unity WebGL עם תוכן רב־לשוני, קריינות ואינטראקציה עם מפתח פיזי.",
+        "tech": "Unity, C#, WebGL, קריינות, אינטראקציה עם מפתח פיזי"
+      }
+    }
+  },
+  {
+    "id": "eye-tracking",
+    "title": "Eye-Tracking Presentation",
+    "image": "assets/images/museum-eye-tracking.jpg",
+    "tags": [
+      "Unity",
+      "PC",
+      "Eye Tracking",
+      "Accessibility"
+    ],
+    "content": {
+      "en": {
+        "game": "An interactive presentation controlled by eye movement: the cursor follows the visitor’s gaze, and an item is selected after a three-second dwell.",
+        "role": "Implemented gaze-based cursor control and three-second dwell selection in a Unity PC application.",
+        "tech": "Unity, C#, PC, eye tracker, dwell interaction"
+      },
+      "ru": {
+        "game": "Интерактивная презентация с управлением взглядом: курсор следует за глазами посетителя, а выбор происходит после трёх секунд фиксации.",
+        "role": "Реализовал управление курсором взглядом и выбор через трёхсекундную фиксацию в приложении Unity для ПК.",
+        "tech": "Unity, C#, ПК, eye tracker, управление взглядом"
+      },
+      "he": {
+        "game": "מצגת אינטראקטיבית הנשלטת באמצעות המבט: הסמן עוקב אחר העיניים והבחירה מתבצעת לאחר שלוש שניות של התמקדות.",
+        "role": "מימוש שליטה בסמן באמצעות מבט ובחירה לאחר השהיה של שלוש שניות ביישום Unity למחשב.",
+        "tech": "Unity, C#, PC, מעקב עיניים"
+      }
+    }
+  },
+  {
+    "id": "lunar-module",
+    "title": "Lunar Module — Remote Control",
+    "image": "assets/images/museum-lunar-module.jpg",
+    "tags": [
+      "Unity",
+      "Arduino",
+      "REST API",
+      "Hardware"
+    ],
+    "content": {
+      "en": {
+        "game": "Visitors move a real antenna to establish a connection with a simulated lunar module, then receive camera images and control a virtual rover with a 1.5-second signal delay.",
+        "role": "Integrated the interactive simulation with physical antenna controls and motor drives through Arduino and REST API.",
+        "tech": "Unity, C#, Arduino, REST API, hardware control, simulated signal latency"
+      },
+      "ru": {
+        "game": "Посетитель управляет настоящей антенной, устанавливает связь с имитацией лунного модуля, получает изображения с камеры и управляет луноходом с задержкой сигнала 1,5 секунды.",
+        "role": "Интегрировал интерактивную симуляцию с физическим управлением антенной и приводами через Arduino и REST API.",
+        "tech": "Unity, C#, Arduino, REST API, управление оборудованием, задержка связи"
+      },
+      "he": {
+        "game": "המבקרים מכוונים אנטנה אמיתית ליצירת קשר עם מודול ירחי מדומה, מקבלים תמונות מצלמה ושולטים ברכב ירח עם השהיית תקשורת של 1.5 שניות.",
+        "role": "שילוב הסימולציה עם בקרת אנטנה ומנועים פיזיים באמצעות Arduino ו-REST API.",
+        "tech": "Unity, C#, Arduino, REST API, בקרת חומרה, השהיית אות"
+      }
+    }
+  },
+  {
+    "id": "radio-history",
+    "title": "Radio Through Time",
+    "image": "assets/images/museum-radio-history.jpg",
+    "tags": [
+      "Interactive Exhibit",
+      "Physical Controls",
+      "Audio"
+    ],
+    "content": {
+      "en": {
+        "game": "A replica of an old radio lets visitors turn a physical tuning knob and discover historical transmissions, including Morse code, an early satellite signal and an early radio broadcast.",
+        "role": "Developed the interactive experience connecting radio tuning to historical audio content.",
+        "tech": "Interactive software, physical tuning control, audio playback"
+      },
+      "ru": {
+        "game": "Реплика старого радиоприёмника: посетитель вращает физическую ручку настройки и находит исторические передачи — азбуку Морзе, сигнал раннего спутника и одну из первых радиопередач.",
+        "role": "Разработал интерактивный сценарий, связывающий настройку радиоприёмника с историческими аудиозаписями.",
+        "tech": "Интерактивное ПО, физический регулятор, воспроизведение аудио"
+      },
+      "he": {
+        "game": "דגם של רדיו ישן מאפשר למבקרים לסובב כפתור כוונון פיזי ולגלות שידורים היסטוריים, כולל קוד מורס, אות לוויין מוקדם ושידור רדיו מוקדם.",
+        "role": "פיתוח החוויה האינטראקטיבית המקשרת כוונון רדיו לתוכן שמע היסטורי.",
+        "tech": "תוכנה אינטראקטיבית, כפתור כוונון פיזי, השמעת שמע"
+      }
+    }
+  },
+  {
+    "id": "banknote",
+    "title": "Design Your Own Banknote",
+    "image": "assets/images/museum-banknote.jpg",
+    "tags": [
+      "Unity",
+      "Camera",
+      "Printing",
+      "Custom Module"
+    ],
+    "content": {
+      "en": {
+        "game": "After learning about banknote security features, visitors design and print a personalized banknote using a camera.",
+        "role": "Implemented the interactive design experience and a custom printing module to connect the Unity application to a printer.",
+        "tech": "Unity, C#, camera integration, custom printing module"
+      },
+      "ru": {
+        "game": "После знакомства с защитными элементами банкнот посетитель создаёт собственную банкноту с использованием камеры и распечатывает её.",
+        "role": "Реализовал интерактивный редактор и собственный модуль печати для связи приложения Unity с принтером.",
+        "tech": "Unity, C#, интеграция камеры, собственный модуль печати"
+      },
+      "he": {
+        "game": "לאחר היכרות עם אמצעי האבטחה של שטרות, המבקרים מעצבים ומדפיסים שטר אישי בעזרת מצלמה.",
+        "role": "מימוש חוויית עיצוב אינטראקטיבית ומודול הדפסה ייעודי לחיבור יישום Unity למדפסת.",
+        "tech": "Unity, C#, שילוב מצלמה, מודול הדפסה ייעודי"
+      }
+    }
+  }
+]
