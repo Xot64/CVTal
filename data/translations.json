@@ -34,7 +34,7 @@
     },
     "projects": {
       "kicker": "PORTFOLIO",
-      "title": "Selected projects",
+      "title": "Game Development",
       "subtitle": "A compact selection of commercial and personal work.",
       "nda": "Most commercial projects were developed under NDA. Gameplay videos may be shown, but source code and project files cannot be published.",
       "ndaBadge": "Commercial project — NDA",
@@ -136,7 +136,7 @@
     },
     "projects": {
       "kicker": "ПОРТФОЛИО",
-      "title": "Избранные проекты",
+      "title": "Разработка игр",
       "subtitle": "Компактная подборка коммерческих и личных работ.",
       "nda": "Большинство коммерческих проектов создавалось по NDA. Видео игрового процесса можно показывать, но исходный код и файлы проектов публиковать нельзя.",
       "ndaBadge": "Коммерческий проект — NDA",
@@ -238,7 +238,7 @@
     },
     "projects": {
       "kicker": "תיק עבודות",
-      "title": "פרויקטים נבחרים",
+      "title": "פיתוח משחקים",
       "subtitle": "מבחר תמציתי של עבודות מסחריות ואישיות.",
       "nda": "רוב הפרויקטים המסחריים פותחו תחת NDA. ניתן להציג סרטוני משחק, אך לא ניתן לפרסם קוד מקור או קובצי פרויקט.",
       "ndaBadge": "פרויקט מסחרי — NDA",

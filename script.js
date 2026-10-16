@@ -85,11 +85,23 @@ function applyLanguage(lang){
   renderProjects();
 }
 
+function coverPath(project) {
+  const png = {
+    jewellery: "assets/images/jewelary.png",
+    island: "assets/images/island.png",
+    crispr: "assets/images/crispr.png",
+    room42: "assets/images/Room42.svg",
+    elecot: "assets/images/Elevator.png",
+    monster: "assets/images/Monster.png",
+    phasmaslotia: "assets/images/Fasma.png"
+  };
+  return png[project.id] || project.image;
+}
 function makeProjectCard(project){
   const card = document.createElement("article");
   card.className = "project-card";
   card.innerHTML = `
-    <img src="${project.image}" alt="${project.title}">
+    <img src="${coverPath(project)}" alt="${project.title}">
     <div class="project-body">
       <div class="project-title-row">
         <h3>${project.title}</h3>
@@ -114,6 +126,10 @@ function makeProjectCard(project){
       </div>
     </div>`;
 
+  const cover = card.querySelector(".project-card > img");
+  cover.addEventListener("error", () => {
+    if (cover.getAttribute("src") !== project.image) cover.src = project.image;
+  });
   const buttons = card.querySelectorAll(".tab-btn");
   const panels = card.querySelectorAll(".tab-panel");
   buttons.forEach(btn=>{
