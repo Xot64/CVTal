@@ -75,7 +75,7 @@
     },
     "common": {
       "videoSoon": "Video link will be added",
-      "videoPlaceholder": "Insert YouTube embed here."
+      "videoPlaceholder": "Video coming soon."
     }
   },
   "ru": {
@@ -154,7 +154,7 @@
     },
     "common": {
       "videoSoon": "Ссылка на видео будет добавлена",
-      "videoPlaceholder": "Здесь будет встроенное видео YouTube."
+      "videoPlaceholder": "Видео скоро будет добавлено."
     }
   },
   "he": {
@@ -233,7 +233,7 @@
     },
     "common": {
       "videoSoon": "קישור לווידאו יתווסף בהמשך",
-      "videoPlaceholder": "כאן יופיע סרטון YouTube משובץ."
+      "videoPlaceholder": "הסרטון יתווסף בקרוב."
     }
   }
 }
