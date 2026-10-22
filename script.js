@@ -32,6 +32,12 @@ function applyPortfolioCopy(lang) {
     const el = document.querySelector(`.hero [data-i18n="hero.${key}"]`);
     if (el) el.textContent = copy[key];
   });
+  const about = dictionary.aboutModes?.[portfolioMode] || dictionary.about;
+  const aboutFields = ["kicker", "title", "text", "card1.title", "card1.text", "card2.title", "card2.text", "card3.title", "card3.text"];
+  aboutFields.forEach(key => {
+    const el = document.querySelector(`#about [data-i18n="about.${key}"]`);
+    if (el) el.textContent = key.split(".").reduce((obj, part) => obj?.[part], about);
+  });
   document.title = `${copy.eyebrow} — Dmitry Tal`;
   const heroAction = document.querySelector(".hero-actions a");
   if (heroAction) heroAction.href = window.location.pathname + "#" + (portfolioMode === "museums" ? "museum" : portfolioMode === "industrial" ? "industrial" : "projects");

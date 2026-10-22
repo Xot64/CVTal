@@ -111,6 +111,59 @@
         "title": "Industrial automation and interactive control systems.",
         "text": "Experience with PLC, HMI, SCADA, C++, FBD, Modbus and software integration."
       }
+    },
+    "aboutModes": {
+      "games": {
+        "kicker": "ABOUT",
+        "title": "Gameplay programming, game design and rapid prototyping.",
+        "text": "I build Unity prototypes from concept to implementation: gameplay mechanics, application architecture, UI and interactive systems. My background also includes museum installations and industrial automation.",
+        "card1": {
+          "title": "Gameplay Design",
+          "text": "Mechanics, progression and game loops."
+        },
+        "card2": {
+          "title": "Gameplay Programming",
+          "text": "Unity, C#, UI and game systems."
+        },
+        "card3": {
+          "title": "Interactive Systems",
+          "text": "Motion tracking, AR and museum installations."
+        }
+      },
+      "museums": {
+        "kicker": "ABOUT",
+        "title": "Interactive museum installations, from software to physical exhibits.",
+        "text": "I develop interactive exhibits that connect software, sensors and physical equipment. My work includes Unity applications, motion and eye tracking, hardware integration and adapting interactions for museum visitors.",
+        "card1": {
+          "title": "Interactive Exhibits",
+          "text": "Visitor interaction, exhibit logic and intuitive controls."
+        },
+        "card2": {
+          "title": "Sensors & Integration",
+          "text": "Motion tracking, eye tracking, NFC and hardware connectivity."
+        },
+        "card3": {
+          "title": "On-site Engineering",
+          "text": "Testing, troubleshooting and refining installed exhibits."
+        }
+      },
+      "industrial": {
+        "kicker": "ABOUT",
+        "title": "Industrial automation: PLC software, SCADA and commissioning.",
+        "text": "I develop industrial control systems from technical specifications: PLC programs, SCADA/HMI interfaces and control logic. I also assemble control cabinets, connect equipment on site, test and commission completed systems.",
+        "card1": {
+          "title": "PLC Programming",
+          "text": "Beckhoff, OWEN, C++, FBD and control logic."
+        },
+        "card2": {
+          "title": "SCADA / HMI",
+          "text": "Reliance SCADA, Kinco panels, alarms and monitoring."
+        },
+        "card3": {
+          "title": "Field Work",
+          "text": "Control cabinets, wiring, equipment testing and commissioning."
+        }
+      }
     }
   },
   "ru": {
@@ -225,6 +278,59 @@
         "title": "Промышленная автоматизация и системы управления.",
         "text": "Опыт работы с PLC, HMI, SCADA, C++, FBD, Modbus и интеграцией программного обеспечения."
       }
+    },
+    "aboutModes": {
+      "games": {
+        "kicker": "ОБО МНЕ",
+        "title": "Программирование игрового процесса, геймдизайн и быстрое прототипирование.",
+        "text": "Я создаю проекты на Unity от концепции до реализации: игровые механики, архитектуру приложений, UI и интерактивные системы. Также имею опыт музейных инсталляций и промышленной автоматизации.",
+        "card1": {
+          "title": "Геймдизайн",
+          "text": "Механики, прогрессия и игровые циклы."
+        },
+        "card2": {
+          "title": "Gameplay Programming",
+          "text": "Unity, C#, UI и игровые системы."
+        },
+        "card3": {
+          "title": "Интерактивные системы",
+          "text": "Захват движений, AR и музейные инсталляции."
+        }
+      },
+      "museums": {
+        "kicker": "ОБО МНЕ",
+        "title": "Интерактивные музейные экспонаты: от программы до работающей инсталляции.",
+        "text": "Разрабатываю интерактивные экспонаты, объединяющие программное обеспечение, датчики и физическое оборудование. Работал с Unity, захватом движений, отслеживанием взгляда и интеграцией устройств. Адаптирую управление под посетителей и условия эксплуатации.",
+        "card1": {
+          "title": "Интерактивные экспонаты",
+          "text": "Логика взаимодействия, управление и пользовательский опыт."
+        },
+        "card2": {
+          "title": "Датчики и интеграции",
+          "text": "Захват движений, отслеживание взгляда, NFC и оборудование."
+        },
+        "card3": {
+          "title": "Работа на объекте",
+          "text": "Тестирование, поиск неисправностей и доработка экспонатов."
+        }
+      },
+      "industrial": {
+        "kicker": "ОБО МНЕ",
+        "title": "Промышленная автоматизация: ПЛК, SCADA и пусконаладка.",
+        "text": "Разрабатываю системы автоматизации с нуля по техническому заданию: программы ПЛК, интерфейсы SCADA/HMI и алгоритмы управления. Также собирал шкафы автоматики, подключал оборудование на объектах, проводил испытания и пусконаладку.",
+        "card1": {
+          "title": "Программирование ПЛК",
+          "text": "Beckhoff, ОВЕН, C++, FBD и алгоритмы управления."
+        },
+        "card2": {
+          "title": "SCADA / HMI",
+          "text": "Reliance SCADA, панели Kinco, аварии и мониторинг."
+        },
+        "card3": {
+          "title": "Монтаж и наладка",
+          "text": "Шкафы автоматики, подключение, проверка и ввод в эксплуатацию."
+        }
+      }
     }
   },
   "he": {
@@ -338,6 +444,59 @@
         "eyebrow": "מהנדס תוכנה לאוטומציה",
         "title": "אוטומציה תעשייתית ומערכות בקרה.",
         "text": "ניסיון עם PLC, HMI, SCADA, C++, FBD, Modbus ושילוב מערכות תוכנה."
+      }
+    },
+    "aboutModes": {
+      "games": {
+        "kicker": "אודות",
+        "title": "תכנות משחקיות, עיצוב משחקים ופיתוח מהיר של אבות־טיפוס.",
+        "text": "אני מפתח פרויקטים ב-Unity משלב הרעיון ועד למימוש: מכניקות משחק, ארכיטקטורת אפליקציה, UI ומערכות אינטראקטיביות. יש לי גם ניסיון במיצגים מוזיאליים ובאוטומציה תעשייתית.",
+        "card1": {
+          "title": "עיצוב משחקים",
+          "text": "מכניקות, התקדמות ולולאות משחק."
+        },
+        "card2": {
+          "title": "תכנות Gameplay",
+          "text": "Unity, C#, ממשקי משתמש ומערכות משחק."
+        },
+        "card3": {
+          "title": "מערכות אינטראקטיביות",
+          "text": "לכידת תנועה, AR ומיצגים מוזיאליים."
+        }
+      },
+      "museums": {
+        "kicker": "אודות",
+        "title": "מיצגים אינטראקטיביים למוזיאונים — מתוכנה ועד להתקנה פעילה.",
+        "text": "אני מפתח מיצגים אינטראקטיביים המשלבים תוכנה, חיישנים וציוד פיזי. ניסיוני כולל יישומי Unity, מעקב תנועה ועיניים, אינטגרציה עם חומרה והתאמת האינטראקציה למבקרי מוזיאונים.",
+        "card1": {
+          "title": "מיצגים אינטראקטיביים",
+          "text": "לוגיקת אינטראקציה, ממשקים וחוויית מבקר."
+        },
+        "card2": {
+          "title": "חיישנים ואינטגרציה",
+          "text": "מעקב תנועה, מעקב עיניים, NFC וחיבורי חומרה."
+        },
+        "card3": {
+          "title": "עבודה בשטח",
+          "text": "בדיקות, פתרון תקלות ושיפור מיצגים מותקנים."
+        }
+      },
+      "industrial": {
+        "kicker": "אודות",
+        "title": "אוטומציה תעשייתית: תכנות PLC, מערכות SCADA והפעלה בשטח.",
+        "text": "אני מפתח מערכות בקרה מאפס לפי מפרט טכני: תוכנה לבקרים מתוכנתים, ממשקי SCADA/HMI ולוגיקת בקרה. בנוסף הרכבתי ארונות בקרה, חיברתי ציוד באתר וביצעתי בדיקות והפעלה.",
+        "card1": {
+          "title": "תכנות PLC",
+          "text": "Beckhoff, OWEN, C++, FBD ולוגיקת בקרה."
+        },
+        "card2": {
+          "title": "SCADA / HMI",
+          "text": "Reliance SCADA, לוחות Kinco, התראות וניטור."
+        },
+        "card3": {
+          "title": "עבודה בשטח",
+          "text": "ארונות בקרה, חיווט, בדיקות והפעלה."
+        }
       }
     }
   }
