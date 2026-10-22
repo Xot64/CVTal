@@ -295,39 +295,5 @@
     "screenshots": [
       
     ]
-  },
-  {
-    "id": "elecot",
-    "title": "EleCoT",
-    "image": "assets/images/elecot.svg",
-    "featured": true,
-    "nda": false,
-    "tags": [
-      "Unity",
-      "C#",
-      "WebGL",
-      "Android",
-      "NUnit"
-    ],
-    "content": {
-      "en": {
-        "game": "In development — an elevator construction management application for projects, employees, work stages, tasks and comments.",
-        "role": "Designed a service/repository architecture, role-based workflow, local JSON persistence and offline change synchronization.",
-        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON persistence, NUnit."
-      },
-      "ru": {
-        "game": "В разработке — приложение для управления монтажом лифтов: объекты, сотрудники, этапы работ, задачи и комментарии.",
-        "role": "Спроектировал сервисную и repository-архитектуру, ролевую модель, локальное JSON-хранилище и синхронизацию офлайн-изменений.",
-        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON, NUnit."
-      },
-      "he": {
-        "game": "בפיתוח — אפליקציה לניהול פרויקטים של התקנת מעליות, עובדים, שלבי עבודה, משימות ותגובות.",
-        "role": "תכננתי ארכיטקטורת services/repositories, תהליך מבוסס תפקידים, שמירה מקומית ב-JSON וסנכרון שינויים אופליין.",
-        "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON ו-NUnit."
-      }
-    },
-    "screenshots": [
-      
-    ]
   }
 ]

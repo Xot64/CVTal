@@ -2,7 +2,7 @@
   {
     "id": "diffie-hellman",
     "title": "Diffie–Hellman",
-    "image": "assets/images/museum-diffie-hellman.jpg",
+    "image": "assets/images/Diffy.png",
     "tags": [
       "Unity",
       "Android",
@@ -26,12 +26,17 @@
         "tech": "Unity, C#, Android, Orbbec, מעקב תנועה"
       }
     },
-    "screenshots": []
+    "screenshots": [
+      "assets/screenshots/Diffy/IMG_01.png",
+      "assets/screenshots/Diffy/IMG_02.png",
+      "assets/screenshots/Diffy/IMG_03.png"
+    ],
+    "video": "https://youtu.be/DEYorRsOCWI"
   },
   {
     "id": "smart-things",
-    "title": "Smart Things & Web Safety",
-    "image": "assets/images/museum-smart-things.jpg",
+    "title": "Internet of Things & Web Safety",
+    "image": "assets/screenshots/IoT/IMG_01.png",
     "tags": [
       "Unity",
       "WebGL",
@@ -55,7 +60,12 @@
         "tech": "Unity, C#, WebGL, קריינות, אינטראקציה עם מפתח פיזי"
       }
     },
-    "screenshots": []
+    "screenshots": [
+      "assets/screenshots/IoT/IMG_01.png",
+      "assets/screenshots/IoT/IMG_02.png",
+      "assets/screenshots/IoT/IMG_03.png",
+      "assets/screenshots/IoT/IMG_04.png"
+    ]
   },
   {
     "id": "eye-tracking",
@@ -84,7 +94,8 @@
         "tech": "Unity, C#, PC, מעקב עיניים"
       }
     },
-    "screenshots": []
+    "screenshots": [],
+    "video": "https://youtu.be/Dc8Px_HSdJM"
   },
   {
     "id": "lunar-module",
@@ -112,8 +123,7 @@
         "role": "שילוב הסימולציה עם בקרת אנטנה ומנועים פיזיים באמצעות Arduino ו-REST API.",
         "tech": "Unity, C#, Arduino, REST API, בקרת חומרה, השהיית אות"
       }
-    },
-    "screenshots": []
+    }
   },
   {
     "id": "radio-history",
@@ -141,12 +151,13 @@
         "tech": "תוכנה אינטראקטיבית, כפתור כוונון פיזי, השמעת שמע"
       }
     },
-    "screenshots": []
+    "screenshots": [],
+    "video": "https://youtube.com/shorts/rI8XnMsFRB8"
   },
   {
     "id": "banknote",
     "title": "Design Your Own Banknote",
-    "image": "assets/images/museum-banknote.jpg",
+    "image": "assets/images/banknote.png",
     "tags": [
       "Unity",
       "Camera",
@@ -170,6 +181,12 @@
         "tech": "Unity, C#, שילוב מצלמה, מודול הדפסה ייעודי"
       }
     },
-    "screenshots": []
+    "screenshots": [
+      "assets/screenshots/Banknotes/IMG_01.png",
+      "assets/screenshots/Banknotes/IMG_02.png",
+      "assets/screenshots/Banknotes/IMG_03.png",
+      "assets/screenshots/Banknotes/IMG_04.png",
+      "assets/screenshots/Banknotes/IMG_05.png"
+    ]
   }
 ]
