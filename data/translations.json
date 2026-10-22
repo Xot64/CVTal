@@ -82,12 +82,18 @@
     },
     "common": {
       "videoSoon": "Video link will be added",
-      "videoPlaceholder": "Video coming soon."
+      "videoPlaceholder": "Video coming soon.",
+      "screenshots": "Screenshots"
     },
     "industrial": {
       "kicker": "INDUSTRIAL AUTOMATION",
       "title": "Industrial Automation & Control Systems",
-      "text": "PLC programming, HMI, SCADA, C++, FBD and Modbus. Detailed projects will be added later."
+      "text": "Selected industrial automation and control-system projects using PLC, SCADA and HMI.",
+      "tabs": {
+        "game": "System",
+        "role": "My role",
+        "tech": "Technologies"
+      }
     },
     "heroModes": {
       "games": {
@@ -190,12 +196,18 @@
     },
     "common": {
       "videoSoon": "Ссылка на видео будет добавлена",
-      "videoPlaceholder": "Видео скоро будет добавлено."
+      "videoPlaceholder": "Видео скоро будет добавлено.",
+      "screenshots": "Скриншоты"
     },
     "industrial": {
       "kicker": "ПРОМЫШЛЕННАЯ АВТОМАТИЗАЦИЯ",
       "title": "Автоматизация и системы управления",
-      "text": "Программирование ПЛК, HMI, SCADA, C++, FBD и Modbus. Подробные проекты будут добавлены позже."
+      "text": "Проекты промышленной автоматизации и управления с использованием ПЛК, SCADA и HMI.",
+      "tabs": {
+        "game": "О системе",
+        "role": "Мои задачи",
+        "tech": "Технологии"
+      }
     },
     "heroModes": {
       "games": {
@@ -298,12 +310,18 @@
     },
     "common": {
       "videoSoon": "קישור לווידאו יתווסף בהמשך",
-      "videoPlaceholder": "הסרטון יתווסף בקרוב."
+      "videoPlaceholder": "הסרטון יתווסף בקרוב.",
+      "screenshots": "צילומי מסך"
     },
     "industrial": {
       "kicker": "אוטומציה תעשייתית",
       "title": "אוטומציה ומערכות בקרה",
-      "text": "תכנות PLC, HMI, SCADA, C++, FBD ו-Modbus. פרויקטים נוספים יתווספו בהמשך."
+      "text": "פרויקטים באוטומציה תעשייתית ומערכות בקרה באמצעות PLC, SCADA ו-HMI.",
+      "tabs": {
+        "game": "על המערכת",
+        "role": "התפקיד שלי",
+        "tech": "טכנולוגיות"
+      }
     },
     "heroModes": {
       "games": {

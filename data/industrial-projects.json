@@ -1,0 +1,147 @@
+[
+  {
+    "id": "khimki-business-center",
+    "title": "Business Center — Khimki",
+    "image": "assets/images/industrial.svg",
+    "tags": [
+      "Beckhoff PLC",
+      "Reliance SCADA",
+      "BMS"
+    ],
+    "content": {
+      "en": {
+        "game": "Automation and SCADA monitoring of a 20-story business center in Khimki, Moscow: ventilation, heating, water supply, power distribution, fire safety and other building systems. Approximately 20–30 controllers and several thousand I/O points.",
+        "role": "Developed Beckhoff PLC software and Reliance SCADA visualization from scratch according to the technical specification. Assembled control cabinets, connected equipment on site, tested and commissioned the system. The system was put into operation.",
+        "tech": "Beckhoff PLC · Reliance SCADA · TwinCAT · PLC programming · analog and digital I/O · commissioning."
+      },
+      "ru": {
+        "game": "Автоматизация и диспетчеризация 20-этажного бизнес-центра в Химках: вентиляция, теплоснабжение, водоснабжение, электроснабжение, противопожарные и другие инженерные системы. Около 20–30 контроллеров и несколько тысяч точек ввода-вывода.",
+        "role": "С нуля по техническому заданию разработал программы ПЛК Beckhoff и визуализацию Reliance SCADA. Собирал шкафы управления, подключал оборудование на объекте, выполнял проверку и пусконаладку. Система введена в эксплуатацию.",
+        "tech": "Beckhoff PLC · Reliance SCADA · TwinCAT · программирование ПЛК · аналоговые и дискретные сигналы · пусконаладка."
+      },
+      "he": {
+        "game": "אוטומציה ובקרת מערכות במרכז עסקים בן 20 קומות בחימקי: אוורור, חימום, מים, חשמל, בטיחות אש ומערכות מבנה נוספות. כ־20–30 בקרים ואלפי נקודות קלט/פלט.",
+        "role": "פיתחתי מאפס, לפי מפרט טכני, תוכנה לבקרי Beckhoff וממשקי Reliance SCADA. הרכבתי ארונות בקרה, חיברתי ציוד באתר וביצעתי בדיקות והפעלה. המערכת נכנסה לשימוש.",
+        "tech": "Beckhoff PLC · Reliance SCADA · TwinCAT · תכנות בקרים · קלט/פלט אנלוגי ודיגיטלי · הפעלה באתר."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png"
+    ],
+    "video": ""
+  },
+  {
+    "id": "kulikovo",
+    "title": "Kulikovo Field — Museum Complex",
+    "image": "assets/images/industrial.svg",
+    "tags": [
+      "Beckhoff PLC",
+      "Reliance SCADA",
+      "BMS"
+    ],
+    "content": {
+      "en": {
+        "game": "Building automation and dispatching system for the Kulikovo Field museum complex, covering the museum and associated facilities. Monitors heating, ventilation, fire protection, water supply and cooling; includes alarms, event history and remote monitoring.",
+        "role": "Developed the Beckhoff PLC control software and Reliance SCADA operator interface from scratch to specification for all facility zones. Built and connected control cabinets and participated in on-site commissioning. Remote monitoring used an additional Reliance module. The system was put into operation.",
+        "tech": "Beckhoff PLC · Reliance SCADA · building automation · alarms and event logging · remote monitoring · commissioning."
+      },
+      "ru": {
+        "game": "Система автоматизации и диспетчеризации музейного комплекса «Куликово поле», включая музей и другие зоны комплекса. Контроль отопления, вентиляции, противопожарных систем, водоснабжения и охлаждения; аварийная сигнализация, архив событий и удалённый мониторинг.",
+        "role": "С нуля по ТЗ разработал программы ПЛК Beckhoff и интерфейс диспетчера Reliance SCADA для всех зон комплекса. Собирал и подключал шкафы управления, участвовал в пусконаладке. Удалённый мониторинг реализован с дополнительным модулем Reliance. Система введена в эксплуатацию.",
+        "tech": "Beckhoff PLC · Reliance SCADA · автоматизация зданий · архив аварий · удалённый мониторинг · пусконаладка."
+      },
+      "he": {
+        "game": "מערכת אוטומציה ובקרה למתחם המוזיאון שדה קוליקובו, כולל המוזיאון ומתקנים נוספים. ניטור חימום, אוורור, כיבוי אש, מים וקירור; התראות, היסטוריית אירועים וניטור מרחוק.",
+        "role": "פיתחתי מאפס לפי מפרט את תוכנת בקרי Beckhoff ואת ממשק Reliance SCADA לכל אזורי המתחם. הרכבתי וחיברתי ארונות בקרה והשתתפתי בהפעלה באתר. הניטור מרחוק התבסס על מודול נוסף של Reliance. המערכת נכנסה לשימוש.",
+        "tech": "Beckhoff PLC · Reliance SCADA · אוטומציית מבנים · יומן התראות · ניטור מרחוק · הפעלה באתר."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png"
+    ],
+    "video": ""
+  },
+  {
+    "id": "smartgrid",
+    "title": "SmartGrid — Skolkovo",
+    "image": "assets/images/industrial.svg",
+    "tags": [
+      "OWEN PLC",
+      "Reliance SCADA",
+      "Smart Grid"
+    ],
+    "content": {
+      "en": {
+        "game": "Physical educational and demonstration Smart Grid test bench in Skolkovo. Configurable energy sources and consumers, manual/automatic modes, daily generation and consumption profiles, power-flow diagrams and electrical measurements.",
+        "role": "Developed the complete Reliance SCADA interface and part of the OWEN PLC software. Implemented configuration screens, operating modes, graph loading, visualization of power flows and system status. Participated in commissioning; the stand was put into operation.",
+        "tech": "Reliance SCADA · OWEN PLC · Smart Grid test bench · power-flow visualization · daily profiles · manual/automatic control."
+      },
+      "ru": {
+        "game": "Физический учебно-демонстрационный стенд Smart Grid в Сколково. Настраиваемые источники и потребители энергии, ручной и автоматический режимы, суточные графики генерации и потребления, схемы перетоков и электрические параметры.",
+        "role": "Полностью разработал визуализацию и интерфейсы Reliance SCADA, частично — программу ПЛК ОВЕН. Реализовал настройку конфигурации, режимы управления, загрузку графиков, отображение перетоков и состояния оборудования. Участвовал во вводе стенда в эксплуатацию.",
+        "tech": "Reliance SCADA · ОВЕН PLC · демонстрационный стенд Smart Grid · визуализация перетоков · суточные графики · ручное и автоматическое управление."
+      },
+      "he": {
+        "game": "מתקן הדגמה ולימוד פיזי של רשת חשמל חכמה בסקולקובו. מקורות וצרכני אנרגיה הניתנים להגדרה, מצבים ידניים ואוטומטיים, פרופילים יומיים, תרשימי זרימת הספק ומדידות חשמליות.",
+        "role": "פיתחתי את כל ממשק Reliance SCADA וחלק מתוכנת בקרי OWEN. מימשתי מסכי תצורה, מצבי הפעלה, טעינת גרפים והצגת זרימות הספק ומצב הציוד. השתתפתי בהפעלה; המתקן נכנס לשימוש.",
+        "tech": "Reliance SCADA · OWEN PLC · מתקן Smart Grid · הצגת זרימות הספק · פרופילים יומיים · בקרה ידנית ואוטומטית."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png",
+      "assets/images/IMG_07.png"
+    ],
+    "video": ""
+  },
+  {
+    "id": "gres",
+    "title": "GRES — Krasnoyarsk",
+    "image": "assets/images/industrial.svg",
+    "tags": [
+      "Kinco HMI",
+      "Heat Exchange",
+      "Control Systems"
+    ],
+    "content": {
+      "en": {
+        "game": "Cooling and heat-exchange control system at a power station in Krasnoyarsk. Four cooling towers, fan groups, pumps, two-way and three-way valves, temperature and pressure monitoring, alarms and operating modes.",
+        "role": "Developed the control software and Kinco HMI screens, including cooling tower and valve algorithms, temperature regulation, safety logic, operator access levels and alarm history. Performed on-site commissioning. The system was put into operation.",
+        "tech": "Kinco HMI · Modbus · temperature control · PID parameters · cooling towers · valves · alarms · commissioning. Controller model not confirmed."
+      },
+      "ru": {
+        "game": "Система управления охлаждением и теплообменом на ГРЭС в Красноярске: четыре градирни, группы вентиляторов, насосы, двухходовой и трёхходовой клапаны, контроль температур и давлений, аварии и режимы работы.",
+        "role": "Разработал программную логику управления и все экраны Kinco HMI: алгоритмы градирен и клапанов, температурное регулирование, защиты, уровни доступа операторов и журнал аварий. Выполнил пусконаладку на объекте. Система введена в эксплуатацию.",
+        "tech": "Kinco HMI · Modbus · температурное регулирование · параметры ПИД · градирни · клапаны · аварийная сигнализация · пусконаладка. Модель контроллера не подтверждена."
+      },
+      "he": {
+        "game": "מערכת בקרת קירור וחילוף חום בתחנת כוח בקרסנויארסק: ארבעה מגדלי קירור, קבוצות מאווררים, משאבות, שסתומים דו־כיווניים ותלת־כיווניים, ניטור טמפרטורה ולחץ, התראות ומצבי עבודה.",
+        "role": "פיתחתי את לוגיקת הבקרה ואת כל מסכי Kinco HMI: אלגוריתמים למגדלי קירור ולשסתומים, ויסות טמפרטורה, הגנות, הרשאות מפעילים והיסטוריית התראות. ביצעתי הפעלה באתר. המערכת נכנסה לשימוש.",
+        "tech": "Kinco HMI · Modbus · ויסות טמפרטורה · פרמטרי PID · מגדלי קירור · שסתומים · התראות · הפעלה באתר. דגם הבקר אינו מאומת."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png"
+    ],
+    "video": ""
+  }
+]

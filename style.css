@@ -145,3 +145,14 @@ footer{text-align:center;padding:40px 20px;color:var(--muted)}
 /* Museum project cards */
 #museumProjects .project-card img {width:100%;aspect-ratio:16/9;object-fit:cover}
 #museumProjects .media-pending {font-size:.84rem;opacity:.72;margin-top:16px}
+
+/* Screenshot gallery */
+.modal[hidden], .gallery-arrow[hidden] { display:none !important; }
+.gallery-dialog { width:min(1100px,calc(100% - 24px)); margin:4vh auto 0; padding:20px; }
+.gallery-dialog h3 { margin:0 48px 16px 0; }
+.gallery-viewer { display:flex;align-items:center;justify-content:center;gap:12px;min-height:150px; }
+.gallery-viewer img { display:block;max-width:calc(100% - 110px);max-height:75vh;width:auto;height:auto;object-fit:contain;border-radius:10px; }
+.gallery-arrow { flex:0 0 44px;height:54px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.09);color:white;font-size:25px;cursor:pointer; }
+.gallery-arrow:hover { background:rgba(255,255,255,.2); }
+.gallery-counter { text-align:center;color:var(--muted);padding-top:12px;font-variant-numeric:tabular-nums; }
+@media(max-width:600px){.gallery-dialog{padding:12px}.gallery-viewer{gap:4px}.gallery-viewer img{max-width:calc(100% - 76px);max-height:70vh}.gallery-arrow{flex-basis:34px;height:46px}}

@@ -121,6 +121,7 @@
           </div>
           <p data-i18n="industrial.text">PLC programming, HMI, SCADA, C++, FBD and Modbus. Detailed projects will be added later.</p>
         </div>
+        <div id="industrialProjects" class="project-grid"></div>
       </div>
     </section>
 
@@ -186,6 +187,20 @@
       <div class="video-frame">
         <p data-i18n="common.videoPlaceholder">Insert YouTube embed here.</p>
       </div>
+    </div>
+  </div>
+
+  <div id="galleryModal" class="modal gallery-modal" hidden>
+    <div class="modal-backdrop" data-close-gallery></div>
+    <div class="modal-dialog gallery-dialog" role="dialog" aria-modal="true" aria-labelledby="galleryTitle">
+      <button id="galleryClose" class="modal-close" type="button" data-close-gallery aria-label="Close">×</button>
+      <h3 id="galleryTitle"></h3>
+      <div class="gallery-viewer">
+        <button id="galleryPrev" class="gallery-arrow" type="button" aria-label="Previous screenshot">❮</button>
+        <img id="galleryImage" alt="" />
+        <button id="galleryNext" class="gallery-arrow" type="button" aria-label="Next screenshot">❯</button>
+      </div>
+      <div id="galleryCount" class="gallery-counter" aria-live="polite"></div>
     </div>
   </div>
 

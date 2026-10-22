@@ -50,17 +50,20 @@ configurePortfolioLayout();
 let translations = {};
 let projects = [];
 let museumProjects = [];
+let industrialProjects = [];
 let currentLang = localStorage.getItem("portfolioLang") || "en";
 
 async function loadData(){
-  const [translationsResponse, projectsResponse, museumResponse] = await Promise.all([
+  const [translationsResponse, projectsResponse, museumResponse, industrialResponse] = await Promise.all([
     fetch("data/translations.json"),
     fetch("data/projects.json"),
-    fetch("data/museum-projects.json")
+    fetch("data/museum-projects.json"),
+    fetch("data/industrial-projects.json")
   ]);
   translations = await translationsResponse.json();
   projects = await projectsResponse.json();
   museumProjects = await museumResponse.json();
+  industrialProjects = await industrialResponse.json();
   renderProjects();
   applyLanguage(currentLang);
 }
@@ -91,20 +94,78 @@ document.querySelectorAll("[data-lang]").forEach(btn=>{
   applyPortfolioCopy(lang);
   renderProjects();
   renderMuseumProjects();
+  renderIndustrialProjects();
 }
 
 function coverPath(project) {
-  const png = {
-    jewellery: "assets/images/jewelary.png",
-    island: "assets/images/island.png",
-    crispr: "assets/images/crispr.png",
-    room42: "assets/images/Room42.svg",
-    elecot: "assets/images/Elevator.png",
-    monster: "assets/images/Monster.png",
-    phasmaslotia: "assets/images/Fasma.png"
-  };
-  return png[project.id] || project.image;
+  return project.image || "assets/images/word.svg";
 }
+
+let galleryItems = [];
+let galleryIndex = 0;
+let lastGalleryTrigger = null;
+
+function projectScreenshots(project, isMuseum = false) {
+  if (Array.isArray(project.screenshots) && project.screenshots.length) return project.screenshots.filter(Boolean);
+  // Existing game cover can be viewed until additional screenshots are supplied.
+  if (!isMuseum) return [coverPath(project)];
+  return []; // Museum placeholders are not real screenshots.
+}
+
+function openGallery(project, isMuseum, trigger) {
+  const images = projectScreenshots(project, isMuseum);
+  if (!images.length) return;
+  galleryItems = images;
+  galleryIndex = 0;
+  lastGalleryTrigger = trigger;
+  document.getElementById("galleryTitle").textContent = project.title;
+  document.getElementById("galleryModal").hidden = false;
+  document.body.style.overflow = "hidden";
+  updateGallery();
+  document.getElementById("galleryClose").focus();
+}
+function updateGallery() {
+  const image = document.getElementById("galleryImage");
+  image.src = galleryItems[galleryIndex];
+  image.alt = `${document.getElementById("galleryTitle").textContent} — ${galleryIndex + 1}`;
+  document.getElementById("galleryCount").textContent = `${galleryIndex + 1} / ${galleryItems.length}`;
+  document.getElementById("galleryPrev").hidden = galleryItems.length < 2;
+  document.getElementById("galleryNext").hidden = galleryItems.length < 2;
+}
+function shiftGallery(delta) {
+  if (!galleryItems.length) return;
+  galleryIndex = (galleryIndex + delta + galleryItems.length) % galleryItems.length;
+  updateGallery();
+}
+function closeGallery() {
+  document.getElementById("galleryModal").hidden = true;
+  document.body.style.overflow = "";
+  lastGalleryTrigger?.focus();
+}
+function createMediaActions(project, isMuseum = false) {
+  const actions = document.createElement("div");
+  actions.className = "project-actions";
+  if (projectScreenshots(project, isMuseum).length) {
+    const screenshots = document.createElement("button");
+    screenshots.type = "button";
+    screenshots.className = "button screenshots-button";
+    screenshots.textContent = t("common.screenshots");
+    screenshots.addEventListener("click", () => openGallery(project, isMuseum, screenshots));
+    actions.appendChild(screenshots);
+  }
+  // Video action only exists if the project actually provides a video URL.
+  if (typeof project.video === "string" && project.video.trim()) {
+    const video = document.createElement("a");
+    video.className = "button video-button";
+    video.href = project.video;
+    video.target = "_blank";
+    video.rel = "noopener noreferrer";
+    video.textContent = t("projects.watch");
+    actions.appendChild(video);
+  }
+  return actions;
+}
+
 function makeProjectCard(project){
   const card = document.createElement("article");
   card.className = "project-card";
@@ -127,11 +188,6 @@ function makeProjectCard(project){
       <div class="tab-panel" data-panel="role">${project.content[currentLang].role}</div>
       <div class="tab-panel" data-panel="tech">${project.content[currentLang].tech}</div>
 
-      <div class="project-actions">
-        <button class="button video-button" type="button" data-title="${project.title}">
-          ${t("projects.watch")}
-        </button>
-      </div>
     </div>`;
 
   const cover = card.querySelector(".project-card > img");
@@ -150,12 +206,7 @@ function makeProjectCard(project){
     });
   });
 
-  card.querySelector(".video-button").addEventListener("click",()=>{
-    document.getElementById("videoTitle").textContent = project.title;
-    const modal = document.getElementById("videoModal");
-    modal.hidden = false;
-    document.body.style.overflow = "hidden";
-  });
+  card.querySelector(".project-body").appendChild(createMediaActions(project));
 
   return card;
 }
@@ -173,74 +224,25 @@ function renderProjects(){
 
 
 function renderMuseumProjects() {
-  const container = document.getElementById("museumProjects");
-  if (!container || !translations[currentLang]) return;
-  container.replaceChildren();
-  museumProjects.forEach(project => {
-    const card = document.createElement("article");
-    card.className = "project-card";
-    const img = document.createElement("img");
-    img.src = project.image;
-    img.alt = project.title;
-    img.loading = "lazy";
-    img.addEventListener("error", () => { img.onerror = null; img.src = "assets/images/museum.svg"; });
-    card.appendChild(img);
-    const body = document.createElement("div");
-    body.className = "project-body";
-    const h3 = document.createElement("h3");
-    h3.textContent = project.title;
-    body.appendChild(h3);
-    const tags = document.createElement("div");
-    tags.className = "tags";
-    project.tags.forEach(tag => {
-      const span = document.createElement("span");
-      span.textContent = tag;
-      tags.appendChild(span);
-    });
-    body.appendChild(tags);
-    const tabs = document.createElement("div");
-    tabs.className = "tabs";
-    const panels = [];
-    ["game", "role", "tech"].forEach((key, index) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "tab-btn" + (index === 0 ? " active" : "");
-      button.textContent = t("museum.tabs." + key);
-      const panel = document.createElement("div");
-      panel.className = "tab-panel" + (index === 0 ? " active" : "");
-      panel.textContent = (project.content[currentLang] || project.content.en)[key];
-      panels.push(panel);
-      button.addEventListener("click", () => {
-        tabs.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-        panels.forEach(p => p.classList.remove("active"));
-        button.classList.add("active");
-        panel.classList.add("active");
-      });
-      tabs.appendChild(button);
-    });
-    body.appendChild(tabs);
-    panels.forEach(panel => body.appendChild(panel));
-    const note = document.createElement("p");
-    note.className = "media-pending";
-    note.textContent = t("museum.mediaPending");
-    body.appendChild(note);
-    card.appendChild(body);
-    container.appendChild(card);
-  });
+  renderInformationProjects("museumProjects", museumProjects, "museum");
 }
 
-function renderMuseumProjects() {
-  const container = document.getElementById("museumProjects");
+function renderIndustrialProjects() {
+  renderInformationProjects("industrialProjects", industrialProjects, "industrial");
+}
+
+function renderInformationProjects(containerId, items, type) {
+  const container = document.getElementById(containerId);
   if (!container || !translations[currentLang]) return;
   container.replaceChildren();
-  museumProjects.forEach(project => {
+  items.forEach(project => {
     const card = document.createElement("article");
     card.className = "project-card";
     const img = document.createElement("img");
     img.src = project.image;
     img.alt = project.title;
     img.loading = "lazy";
-    img.addEventListener("error", () => { img.onerror = null; img.src = "assets/images/museum.svg"; });
+    img.addEventListener("error", () => { img.onerror = null; img.src = type === "industrial" ? "assets/images/industrial.svg" : "assets/images/museum.svg"; });
     card.appendChild(img);
     const body = document.createElement("div");
     body.className = "project-body";
@@ -262,7 +264,7 @@ function renderMuseumProjects() {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "tab-btn" + (index === 0 ? " active" : "");
-      button.textContent = t("museum.tabs." + key);
+      button.textContent = t(type + ".tabs." + key);
       const panel = document.createElement("div");
       panel.className = "tab-panel" + (index === 0 ? " active" : "");
       panel.textContent = (project.content[currentLang] || project.content.en)[key];
@@ -277,10 +279,7 @@ function renderMuseumProjects() {
     });
     body.appendChild(tabs);
     panels.forEach(panel => body.appendChild(panel));
-    const note = document.createElement("p");
-    note.className = "media-pending";
-    note.textContent = t("museum.mediaPending");
-    body.appendChild(note);
+    body.appendChild(createMediaActions(project, true));
     card.appendChild(body);
     container.appendChild(card);
   });
@@ -312,6 +311,16 @@ document.addEventListener("keydown",e=>{
     document.getElementById("videoModal").hidden = true;
     document.body.style.overflow = "";
   }
+});
+
+document.querySelectorAll("[data-close-gallery]").forEach(el => el.addEventListener("click", closeGallery));
+document.getElementById("galleryPrev").addEventListener("click", () => shiftGallery(-1));
+document.getElementById("galleryNext").addEventListener("click", () => shiftGallery(1));
+document.addEventListener("keydown", e => {
+  if (document.getElementById("galleryModal").hidden) return;
+  if (e.key === "Escape") closeGallery();
+  if (e.key === "ArrowLeft") shiftGallery(-1);
+  if (e.key === "ArrowRight") shiftGallery(1);
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();

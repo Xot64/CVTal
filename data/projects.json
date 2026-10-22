@@ -2,7 +2,7 @@
   {
     "id": "jewellery",
     "title": "Jewellery",
-    "image": "assets/images/jewellery.svg",
+    "image": "assets/images/jewelary.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -27,12 +27,18 @@
         "role": "יצרתי את הקונספט כולו מאפס — לולאת המשחק, המכניקות הייחודיות והכיוון החזותי — ומימשתי את אב־הטיפוס המלא.",
         "tech": "Unity, C#, ממשק משתמש, אנימציה, כלכלה ומערכת Crafting."
       }
-    }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png"
+    ]
   },
   {
     "id": "island",
     "title": "Island Slots",
-    "image": "assets/images/island.svg",
+    "image": "assets/images/island.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -57,12 +63,20 @@
         "role": "תכננתי את הפרויקט מאפס ומימשתי התקדמות, כלים, ניקוי שטח, בנייה והכנסה פסיבית.",
         "tech": "Unity, C#, כלכלה, התקדמות, כלים, בנייה וכיוון Pixel Art."
       }
-    }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png",
+    ]
   },
   {
     "id": "crispr",
     "title": "CRISPR-Cas",
-    "image": "assets/images/crispr.svg",
+    "image": "assets/images/crispr.png",
     "featured": true,
     "nda": true,
     "tags": [
@@ -87,12 +101,138 @@
         "role": "יצרתי את הנושא המדעי, הקונספט, האיזון ומימשתי את אב־הטיפוס המלא.",
         "tech": "Unity, C#, לוגיקת חידות, מכניקות לימודיות וממשק משתמש."
       }
-    }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png"
+    ]
+  },
+  {
+    "id": "phasmaslotia",
+    "title": "Phasmaslotia",
+    "image": "assets/images/Fasma.png",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Slots",
+      "Mini-game"
+    ],
+    "content": {
+      "en": {
+        "game": "A slot-machine game project with an accompanying mini-game.",
+        "role": "Developed the game prototype and gameplay implementation.",
+        "tech": "Unity, C#, slot mechanics, mini-game."
+      },
+      "ru": {
+        "game": "Проект слот-игры с дополнительной мини-игрой.",
+        "role": "Разработка игрового прототипа и реализация игровых механик.",
+        "tech": "Unity, C#, механики слотов, мини-игра."
+      },
+      "he": {
+        "game": "פרויקט משחק סלוט עם מיני־משחק נוסף.",
+        "role": "פיתוח אב־טיפוס ומימוש מכניקות המשחק.",
+        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png",
+      "assets/images/IMG_07.png"
+    ]
+  },
+  {
+    "id": "monster",
+    "title": "My Little Monster",
+    "image": "assets/images/Monster.png",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Slots",
+      "Mini-game"
+    ],
+    "content": {
+      "en": {
+        "game": "A slot-machine game project featuring a monster theme and an accompanying mini-game.",
+        "role": "Developed the game prototype and gameplay implementation.",
+        "tech": "Unity, C#, slot mechanics, mini-game."
+      },
+      "ru": {
+        "game": "Проект слот-игры с тематикой монстров и дополнительной мини-игрой.",
+        "role": "Разработка игрового прототипа и реализация игровых механик.",
+        "tech": "Unity, C#, механики слотов, мини-игра."
+      },
+      "he": {
+        "game": "פרויקט משחק סלוט בנושא מפלצות עם מיני־משחק נוסף.",
+        "role": "פיתוח אב־טיפוס ומימוש מכניקות המשחק.",
+        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png",
+      "assets/images/IMG_07.png",
+      "assets/images/IMG_08.png",
+      "assets/images/IMG_09.png",
+      "assets/images/IMG_10.png"
+    ]
+  },
+  {
+    "id": "sea-turtles",
+    "title": "Sea Turtles",
+    "image": "assets/images/sea-turtles.svg",
+    "featured": false,
+    "nda": true,
+    "tags": [
+      "Unity",
+      "C#",
+      "Slots",
+      "Mini-game"
+    ],
+    "content": {
+      "en": {
+        "game": "A sea-turtle-themed slot game in which players collect turtle eggs. In the bonus mini-game, newly hatched turtles head toward the sea but gradually drift off course; the player must steer them back toward the water.",
+        "role": "Designed and implemented the turtle-egg collection concept and the directional guidance mini-game as part of a slot-game prototype.",
+        "tech": "Unity, C#, slot mechanics, bonus mini-game, directional movement."
+      },
+      "ru": {
+        "game": "Слот-игра про морских черепах: игрок собирает черепашьи яйца. В бонусной мини-игре вылупившиеся черепашки движутся к морю, но постепенно сбиваются с пути — игроку нужно направлять их обратно к воде.",
+        "role": "Разработка концепции сбора черепашьих яиц и реализация мини-игры с корректировкой направления движения черепашек в составе прототипа слотов.",
+        "tech": "Unity, C#, механики слотов, бонусная мини-игра, управление направлением движения."
+      },
+      "he": {
+        "game": "משחק סלוט בנושא צבי ים שבו אוספים ביצי צבים. במיני־משחק הבונוס הצבים שבקעו נעים לעבר הים אך סוטים בהדרגה מהמסלול; השחקן צריך לכוון אותם בחזרה אל המים.",
+        "role": "פיתוח רעיון איסוף ביצי הצבים ומימוש מיני־משחק של תיקון כיוון התנועה כחלק מאב־טיפוס של משחק סלוט.",
+        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק בונוס, שליטה בכיוון התנועה."
+      }
+    },
+    "screenshots": [
+      "assets/images/IMG_01.png",
+      "assets/images/IMG_02.png",
+      "assets/images/IMG_03.png",
+      "assets/images/IMG_04.png",
+      "assets/images/IMG_05.png",
+      "assets/images/IMG_06.png"
+    ]
   },
   {
     "id": "room42",
     "title": "Room42",
-    "image": "assets/images/Room42.png",
+    "image": "assets/images/room42.svg",
     "featured": true,
     "nda": false,
     "tags": [
@@ -118,7 +258,9 @@
         "role": "מתכנן את ארכיטקטורת האפליקציה, חדרים וסשנים, שכבות רשת ומודולי משחק עצמאיים.",
         "tech": "Unity, C#, WebGL, WebSocket, EventBus וארכיטקטורת transport/session."
       }
-    }
+    },
+    "screenshots": [
+    ]
   },
   {
     "id": "pirate",
@@ -148,12 +290,15 @@
         "role": "עיצבתי את הנושא, רצף האינטראקציות, מכניקת התזמון ומימשתי את אב־הטיפוס המלא.",
         "tech": "Unity, C#, ממשק משתמש, תזמון ומערכות מצבים."
       }
-    }
+    },
+    "screenshots": [
+      
+    ]
   },
   {
     "id": "elecot",
     "title": "EleCoT",
-    "image": "assets/images/elecot.png",
+    "image": "assets/images/elecot.svg",
     "featured": true,
     "nda": false,
     "tags": [
@@ -179,6 +324,9 @@
         "role": "תכננתי ארכיטקטורת services/repositories, תהליך מבוסס תפקידים, שמירה מקומית ב-JSON וסנכרון שינויים אופליין.",
         "tech": "Unity, C#, WebGL, Android, EventBus, repositories, JSON ו-NUnit."
       }
-    }
+    },
+    "screenshots": [
+      
+    ]
   }
 ]
