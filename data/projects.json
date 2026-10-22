@@ -29,10 +29,10 @@
       }
     },
     "screenshots": [
-      "assets/images/jewellery/IMG_01.png",
-      "assets/images/jewellery/IMG_02.png",
-      "assets/images/jewellery/IMG_03.png",
-      "assets/images/jewellery/IMG_04.png"
+      "assets/screenshots/jewellery/IMG_01.png",
+      "assets/screenshots/jewellery/IMG_02.png",
+      "assets/screenshots/jewellery/IMG_03.png",
+      "assets/screenshots/jewellery/IMG_04.png"
     ]
   },
   {
@@ -65,12 +65,12 @@
       }
     },
     "screenshots": [
-      "assets/images/island/IMG_01.png",
-      "assets/images/island/IMG_02.png",
-      "assets/images/island/IMG_03.png",
-      "assets/images/island/IMG_04.png",
-      "assets/images/island/IMG_05.png",
-      "assets/images/island/IMG_06.png"
+      "assets/screenshots/island/IMG_01.png",
+      "assets/screenshots/island/IMG_02.png",
+      "assets/screenshots/island/IMG_03.png",
+      "assets/screenshots/island/IMG_04.png",
+      "assets/screenshots/island/IMG_05.png",
+      "assets/screenshots/island/IMG_06.png"
     ]
   },
   {
@@ -103,11 +103,11 @@
       }
     },
     "screenshots": [
-      "assets/images/crispr/IMG_01.png",
-      "assets/images/crispr/IMG_02.png",
-      "assets/images/crispr/IMG_03.png",
-      "assets/images/crispr/IMG_04.png",
-      "assets/images/crispr/IMG_05.png"
+      "assets/screenshots/crispr/IMG_01.png",
+      "assets/screenshots/crispr/IMG_02.png",
+      "assets/screenshots/crispr/IMG_03.png",
+      "assets/screenshots/crispr/IMG_04.png",
+      "assets/screenshots/crispr/IMG_05.png"
     ]
   },
   {
@@ -140,13 +140,13 @@
       }
     },
     "screenshots": [
-      "assets/images/phasmaslotia/IMG_01.png",
-      "assets/images/phasmaslotia/IMG_02.png",
-      "assets/images/phasmaslotia/IMG_03.png",
-      "assets/images/phasmaslotia/IMG_04.png",
-      "assets/images/phasmaslotia/IMG_05.png",
-      "assets/images/phasmaslotia/IMG_06.png",
-      "assets/images/phasmaslotia/IMG_07.png"
+      "assets/screenshots/phasmaslotia/IMG_01.png",
+      "assets/screenshots/phasmaslotia/IMG_02.png",
+      "assets/screenshots/phasmaslotia/IMG_03.png",
+      "assets/screenshots/phasmaslotia/IMG_04.png",
+      "assets/screenshots/phasmaslotia/IMG_05.png",
+      "assets/screenshots/phasmaslotia/IMG_06.png",
+      "assets/screenshots/phasmaslotia/IMG_07.png"
     ]
   },
   {
@@ -179,22 +179,22 @@
       }
     },
     "screenshots": [
-      "assets/images/monster/IMG_01.png",
-      "assets/images/monster/IMG_02.png",
-      "assets/images/monster/IMG_03.png",
-      "assets/images/monster/IMG_04.png",
-      "assets/images/monster/IMG_05.png",
-      "assets/images/monster/IMG_06.png",
-      "assets/images/monster/IMG_07.png",
-      "assets/images/monster/IMG_08.png",
-      "assets/images/monster/IMG_09.png",
-      "assets/images/monster/IMG_10.png"
+      "assets/screenshots/monster/IMG_01.png",
+      "assets/screenshots/monster/IMG_02.png",
+      "assets/screenshots/monster/IMG_03.png",
+      "assets/screenshots/monster/IMG_04.png",
+      "assets/screenshots/monster/IMG_05.png",
+      "assets/screenshots/monster/IMG_06.png",
+      "assets/screenshots/monster/IMG_07.png",
+      "assets/screenshots/monster/IMG_08.png",
+      "assets/screenshots/monster/IMG_09.png",
+      "assets/screenshots/monster/IMG_10.png"
     ]
   },
   {
     "id": "sea-turtles",
     "title": "Sea Turtles",
-    "image": "assets/images/sea-turtles.svg",
+    "image": "assets/images/sea-turtles.png",
     "featured": false,
     "nda": true,
     "tags": [
@@ -221,12 +221,12 @@
       }
     },
     "screenshots": [
-      "assets/images/sea-turtles/IMG_01.png",
-      "assets/images/sea-turtles/IMG_02.png",
-      "assets/images/sea-turtles/IMG_03.png",
-      "assets/images/sea-turtles/IMG_04.png",
-      "assets/images/sea-turtles/IMG_05.png",
-      "assets/images/sea-turtles/IMG_06.png"
+      "assets/screenshots/sea-turtles/IMG_01.png",
+      "assets/screenshots/sea-turtles/IMG_02.png",
+      "assets/screenshots/sea-turtles/IMG_03.png",
+      "assets/screenshots/sea-turtles/IMG_04.png",
+      "assets/screenshots/sea-turtles/IMG_05.png",
+      "assets/screenshots/sea-turtles/IMG_06.png"
     ]
   },
   {
