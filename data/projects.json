@@ -13,19 +13,19 @@
     ],
     "content": {
       "en": {
-        "game": "Collect metals and gemstones, create an alloy and place gemstones to craft a ring.",
-        "role": "Created the entire concept from scratch, including the gameplay loop, unique mechanics and visual direction, then implemented the complete prototype.",
-        "tech": "Unity, C#, UI, animation, economy and crafting systems."
+        "game": "Play as a jeweller: win money or materials at the slot machine, trade materials in a shop, then craft and sell rings. First, match the required metal proportions using balance scales. Next, reproduce a gemstone arrangement as accurately as possible. Precision at both stages determines the ring’s sale value.",
+        "role": "Created the original idea, gameplay design, economy, and visual concepts for every screen. Implemented the complete game. Artwork was produced by another artist.",
+        "tech": "Unity, C#, WebGL; slot mechanics, crafting mini-games, economy and UI."
       },
       "ru": {
-        "game": "Игрок собирает металлы и драгоценные камни, подбирает сплав и размещает камни, создавая кольцо.",
-        "role": "Полностью придумал проект с нуля: игровой цикл, уникальные механики и визуальное направление, после чего реализовал весь прототип.",
-        "tech": "Unity, C#, UI, анимация, экономика и система крафта."
+        "game": "Игрок становится ювелиром: выигрывает деньги и материалы на слот-машине, покупает и продаёт материалы в магазине, а затем создаёт и продаёт кольца. Сначала нужно точно подобрать пропорции сплава на чашечных весах, затем повторить расположение драгоценных камней. Точность обоих этапов определяет стоимость кольца.",
+        "role": "Придумал идею, разработал концепцию, игровые механики, экономику и общий вид всех экранов. Полностью реализовал игру. Графику создал другой художник.",
+        "tech": "Unity, C#, WebGL; слоты, мини-игры изготовления украшений, экономика, UI."
       },
       "he": {
-        "game": "איסוף מתכות ואבני חן, יצירת סגסוגת והצבת אבנים ליצירת טבעת.",
-        "role": "יצרתי את הקונספט כולו מאפס — לולאת המשחק, המכניקות הייחודיות והכיוון החזותי — ומימשתי את אב־הטיפוס המלא.",
-        "tech": "Unity, C#, ממשק משתמש, אנימציה, כלכלה ומערכת Crafting."
+        "game": "השחקן הוא צורף: זוכה בכסף ובחומרים במכונת מזל, קונה ומוכר חומרים בחנות, ולאחר מכן יוצר ומוכר טבעות. תחילה עליו להתאים במדויק את יחסי המתכות בעזרת מאזני כפות, ואז לשחזר את מיקום אבני החן. הדיוק בשני השלבים קובע את שווי הטבעת.",
+        "role": "הגיתי את הרעיון, תכננתי את המכניקות, הכלכלה והקונספט החזותי של כל המסכים, ומימשתי את המשחק במלואו. האיורים נוצרו בידי אמן אחר.",
+        "tech": "Unity, C#, WebGL; מכונת מזל, מיני־משחקי יצירה, כלכלה וממשק משתמש."
       }
     },
     "screenshots": [
@@ -49,19 +49,19 @@
     ],
     "content": {
       "en": {
-        "game": "Earn money, buy tools, clear the island, build houses and generate passive income.",
-        "role": "Designed the project from scratch and implemented progression, tools, terrain clearing, construction and passive-income systems.",
-        "tech": "Unity, C#, economy, progression, tools, building systems, pixel-art direction."
+        "game": "Start with a small budget on an island covered by trees, rocks and pits. Win money and tools from the slot machine, clear tiles and build houses on the freed land. Houses accumulate income for the player to collect. Clearing becomes harder as the island grows; rewarded ads provide extra money or tools.",
+        "role": "Independently created the concept, designed and programmed every gameplay system, and drew all pixel-art graphics. Implemented rewarded-ad bonuses.",
+        "tech": "Unity, C#, WebGL; terrain clearing, building, progression, economy, rewarded ads and pixel art."
       },
       "ru": {
-        "game": "Игрок зарабатывает деньги, покупает инструменты, очищает остров, строит дома и получает пассивный доход.",
-        "role": "Придумал проект с нуля и реализовал прогрессию, инструменты, очистку территории, строительство и пассивный доход.",
-        "tech": "Unity, C#, экономика, прогрессия, инструменты, строительство, направление пиксель-арта."
+        "game": "Игрок начинает с небольшим капиталом на острове, занятом деревьями, камнями и ямами. На слот-машине можно выиграть деньги и инструменты, чтобы расчищать клетки и строить дома. Дома накапливают доход, который игрок собирает. По мере расширения острова расчистка усложняется; дополнительные деньги и инструменты можно получить за просмотр рекламы.",
+        "role": "Полностью самостоятельно придумал концепцию, спроектировал и реализовал все механики, а также нарисовал всю графику в стиле пиксель-арт. Реализовал награды за просмотр рекламы.",
+        "tech": "Unity, C#, WebGL; расчистка территории, строительство, прогрессия, экономика, вознаграждаемая реклама, пиксель-арт."
       },
       "he": {
-        "game": "הרווחת כסף, רכישת כלים, ניקוי האי, בניית בתים ויצירת הכנסה פסיבית.",
-        "role": "תכננתי את הפרויקט מאפס ומימשתי התקדמות, כלים, ניקוי שטח, בנייה והכנסה פסיבית.",
-        "tech": "Unity, C#, כלכלה, התקדמות, כלים, בנייה וכיוון Pixel Art."
+        "game": "השחקן מתחיל עם הון קטן באי המכוסה עצים, סלעים ובורות. במכונת המזל אפשר לזכות בכסף ובכלים, לפנות משבצות ולבנות בתים. הבתים צוברים הכנסה שאפשר לאסוף. ככל שהאי מתפתח, פינוי השטח נעשה קשה יותר; צפייה בפרסומות מעניקה כסף או כלים נוספים.",
+        "role": "יצרתי באופן עצמאי את הרעיון, תכננתי ומימשתי את כל המכניקות וציירתי את כל הגרפיקה בסגנון פיקסל־ארט. מימשתי גם תגמולים על צפייה בפרסומות.",
+        "tech": "Unity, C#, WebGL; פינוי שטח, בנייה, התקדמות, כלכלה, פרסומות מתוגמלות ופיקסל־ארט."
       }
     },
     "screenshots": [
@@ -87,19 +87,19 @@
     ],
     "content": {
       "en": {
-        "game": "Reach a target bacteria level and edit nucleotide sequences through deletion and insertion mechanics.",
-        "role": "Created the scientific theme, gameplay concept, balancing logic and complete prototype implementation.",
-        "tech": "Unity, C#, puzzle logic, educational mechanics, UI."
+        "game": "Play as a biologist. Stop the slot machine at the right moment to collect virus samples and antidote. Research requires at least half a tube of virus and a full tube of antidote, but filling any virus tube completely causes infection. In the DNA puzzle, use CRISPR to cut every matching nucleotide sequence and Cas to fill gaps with a chosen sequence. The goal is an exact match with the target DNA. Tool costs rise geometrically, and each Cas insertion is charged separately.",
+        "role": "Created the idea, concept, resource-risk mechanics and DNA-editing puzzle. Designed and implemented sequence matching, cutting, insertion and tool-cost systems. Programmed the entire game; artwork was created by another artist.",
+        "tech": "Unity, C#, WebGL; sequence-processing algorithms, puzzle logic, economy and UI."
       },
       "ru": {
-        "game": "Игрок достигает нужного уровня бактерий и редактирует нуклеотидные последовательности через удаление и вставку.",
-        "role": "Придумал научную тему, игровую концепцию, баланс и полностью реализовал прототип.",
-        "tech": "Unity, C#, логика головоломки, образовательные механики, UI."
+        "game": "Игрок становится биологом. Вовремя останавливая слот-машину, он накапливает образцы вирусов и антидот. Для исследования нужно заполнить пробирку вируса минимум наполовину и пробирку антидота полностью, но заполнение любой вирусной пробирки до 100% вызывает заражение. В головоломке с ДНК CRISPR вырезает все совпадения заданной последовательности, а Cas заполняет разрывы выбранными нуклеотидами. Цель — полное совпадение с шаблоном. Стоимость инструментов растёт геометрически; каждая вставка Cas оплачивается отдельно.",
+        "role": "Придумал идею и концепцию, разработал механику накопления ресурсов и риска заражения, алгоритмы поиска, вырезания и вставки последовательностей и экономику инструментов. Полностью реализовал игру; графику создал другой художник.",
+        "tech": "Unity, C#, WebGL; алгоритмы обработки последовательностей, логика головоломки, экономика, UI."
       },
       "he": {
-        "game": "הגעה לרמת חיידקים רצויה ועריכת רצפי נוקלאוטידים באמצעות מחיקה והוספה.",
-        "role": "יצרתי את הנושא המדעי, הקונספט, האיזון ומימשתי את אב־הטיפוס המלא.",
-        "tech": "Unity, C#, לוגיקת חידות, מכניקות לימודיות וממשק משתמש."
+        "game": "השחקן הוא ביולוג. עצירה מדויקת של מכונת המזל מאפשרת לאסוף דגימות נגיפים ותרופת נגד. למחקר נדרשת מבחנת נגיף מלאה לפחות למחצה ומבחנת תרופת נגד מלאה, אך מילוי מלא של מבחנת נגיף כלשהי גורם להדבקה. בחידת ה-DNA כלי CRISPR חותך את כל המופעים של רצף נוקלאוטידים נבחר, וכלי Cas ממלא את הרווחים ברצף שנבחר. המטרה היא התאמה מלאה לתבנית. מחירי הכלים עולים באופן גאומטרי, וכל החדרה של Cas מחויבת בנפרד.",
+        "role": "הגיתי את הרעיון והקונספט, תכננתי את איסוף המשאבים וסיכון ההדבקה, ואת אלגוריתמי החיפוש, החיתוך וההחדרה של רצפים. מימשתי את המשחק כולו; הגרפיקה נוצרה בידי אמן אחר.",
+        "tech": "Unity, C#, WebGL; אלגוריתמים לעיבוד רצפים, לוגיקת חידות, כלכלה וממשק משתמש."
       }
     },
     "screenshots": [
@@ -124,19 +124,19 @@
     ],
     "content": {
       "en": {
-        "game": "A slot-machine game project with an accompanying mini-game.",
-        "role": "Developed the game prototype and gameplay implementation.",
-        "tech": "Unity, C#, slot mechanics, mini-game."
+        "game": "A ghost-investigation mini-game inspired by Phasmophobia. Earn the required amount on a simple slot machine to enter a room with an invisible ghost. The ghost travels in straight lines, choosing a random new direction at the screen edge. Activate and move investigation tools around the room; each ghost type produces different evidence. Identify the ghost before sanity falls to zero.",
+        "role": "Created the game concept, adapted and expanded the investigation toolkit, designed ghost movement and tool reactions, and implemented the complete game. Artwork was made by another artist.",
+        "tech": "Unity, C#, WebGL; ghost behavior, tool interactions, evidence systems, sanity mechanic and UI."
       },
       "ru": {
-        "game": "Проект слот-игры с дополнительной мини-игрой.",
-        "role": "Разработка игрового прототипа и реализация игровых механик.",
-        "tech": "Unity, C#, механики слотов, мини-игра."
+        "game": "Мини-игра по поиску призрака, вдохновлённая Phasmophobia. Набрав нужную сумму на простой слот-машине, игрок попадает в комнату с невидимым призраком. Тот летит по прямой и у края экрана выбирает случайное новое направление. Игрок активирует и перемещает инструменты по комнате; каждый тип призрака даёт разные улики. Нужно определить призрака до того, как рассудок упадёт до нуля.",
+        "role": "Разработал концепцию игры, адаптировал и расширил набор инструментов, спроектировал движение призрака и реакции на инструменты, полностью реализовал игру. Графику создал другой художник.",
+        "tech": "Unity, C#, WebGL; поведение призрака, взаимодействие инструментов, система улик, механика рассудка, UI."
       },
       "he": {
-        "game": "פרויקט משחק סלוט עם מיני־משחק נוסף.",
-        "role": "פיתוח אב־טיפוס ומימוש מכניקות המשחק.",
-        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק."
+        "game": "מיני־משחק לחקירת רוחות בהשראת Phasmophobia. לאחר צבירת הסכום הדרוש במכונת מזל פשוטה, השחקן נכנס לחדר עם רוח בלתי נראית. הרוח נעה בקו ישר ובקצה המסך בוחרת כיוון אקראי חדש. השחקן מפעיל ומזיז כלי חקירה בחדר; כל סוג רוח מספק ראיות שונות. יש לזהות את הרוח לפני שמד השפיות יורד לאפס.",
+        "role": "יצרתי את קונספט המשחק, התאמתי והרחבתי את כלי החקירה, תכננתי את תנועת הרוח ואת תגובות הכלים, ומימשתי את המשחק במלואו. הגרפיקה נוצרה בידי אמן אחר.",
+        "tech": "Unity, C#, WebGL; התנהגות רוח, אינטראקציות עם כלים, מערכת ראיות, מד שפיות וממשק משתמש."
       }
     },
     "screenshots": [
@@ -163,19 +163,19 @@
     ],
     "content": {
       "en": {
-        "game": "A slot-machine game project featuring a monster theme and an accompanying mini-game.",
-        "role": "Developed the game prototype and gameplay implementation.",
-        "tech": "Unity, C#, slot mechanics, mini-game."
+        "game": "Build a Frankenstein-style monster using parts won from the slot machine. Spins award blood (the slot currency) or random body parts, including eyes, noses, mouths and skin. When several variants of a part appear, choose your favorite; additional parts can be obtained through rewarded ads. In the mini-game, identify and catch a moving monster that matches the displayed combination of features. A wrong catch costs the player a hand, visibly removed; the second mistake ends the game.",
+        "role": "Created the idea, game concept and screen designs, and implemented the slot rewards, monster customization, matching mini-game and visible loss-of-hand mechanic. Artwork was produced by another artist.",
+        "tech": "Unity, C#, WebGL; character customization, random rewards, visual matching, rewarded ads and UI."
       },
       "ru": {
-        "game": "Проект слот-игры с тематикой монстров и дополнительной мини-игрой.",
-        "role": "Разработка игрового прототипа и реализация игровых механик.",
-        "tech": "Unity, C#, механики слотов, мини-игра."
+        "game": "Игрок собирает монстра в стиле Франкенштейна из частей, выпадающих на слот-машине. Вращения приносят кровь (валюту слотов) или случайные детали: глаза, нос, рот, кожу и другие. Если выпало несколько вариантов одной детали, можно выбрать понравившийся; дополнительные детали доступны за просмотр рекламы. В мини-игре нужно поймать движущегося монстра, точно соответствующего показанному набору признаков. При ошибке игрок визуально теряет руку, но продолжает игру; вторая ошибка приводит к поражению.",
+        "role": "Придумал идею, разработал концепцию и внешний вид экранов, реализовал случайные награды, выбор деталей монстра, мини-игру на распознавание и визуальную потерю руки. Графику создал другой художник.",
+        "tech": "Unity, C#, WebGL; кастомизация персонажа, случайные награды, поиск по признакам, вознаграждаемая реклама, UI."
       },
       "he": {
-        "game": "פרויקט משחק סלוט בנושא מפלצות עם מיני־משחק נוסף.",
-        "role": "פיתוח אב־טיפוס ומימוש מכניקות המשחק.",
-        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק."
+        "game": "השחקן מרכיב מפלצת בסגנון פרנקנשטיין מחלקים שמתקבלים במכונת מזל. הסיבובים מעניקים דם (מטבע המשחק) או חלקי גוף אקראיים: עיניים, אף, פה, עור ועוד. אם מתקבלים כמה סוגים של אותו חלק, אפשר לבחור את המועדף; חלקים נוספים זמינים בצפייה בפרסומות. במיני־משחק צריך לתפוס מפלצת נעה שמתאימה בדיוק לצירוף המאפיינים המוצג. טעות גורמת לאובדן יד שמוצג חזותית, אך המשחק נמשך; טעות שנייה גורמת להפסד.",
+        "role": "הגיתי את הרעיון, תכננתי את הקונספט ואת מראה המסכים, ומימשתי תגמולים אקראיים, בחירת חלקי המפלצת, משחק זיהוי ואת אובדן היד החזותי. הגרפיקה נוצרה בידי אמן אחר.",
+        "tech": "Unity, C#, WebGL; התאמה אישית של דמות, תגמולים אקראיים, זיהוי לפי מאפיינים, פרסומות מתוגמלות וממשק משתמש."
       }
     },
     "screenshots": [
@@ -205,19 +205,19 @@
     ],
     "content": {
       "en": {
-        "game": "A sea-turtle-themed slot game in which players collect turtle eggs. In the bonus mini-game, newly hatched turtles head toward the sea but gradually drift off course; the player must steer them back toward the water.",
-        "role": "Designed and implemented the turtle-egg collection concept and the directional guidance mini-game as part of a slot-game prototype.",
-        "tech": "Unity, C#, slot mechanics, bonus mini-game, directional movement."
+        "game": "Win money or turtle eggs from a slot machine. Every collected egg becomes a hatchling to rescue in the mini-game. Guide the newly hatched turtles toward the ocean by correcting their direction. As levels increase, the turtles move faster and hatch more frequently.",
+        "role": "Created the idea, concept and gameplay mechanics, and implemented the egg collection, turtle steering and increasing difficulty. Artwork was produced by another artist.",
+        "tech": "Unity, C#, WebGL; movement control, spawning, difficulty progression and UI."
       },
       "ru": {
-        "game": "Слот-игра про морских черепах: игрок собирает черепашьи яйца. В бонусной мини-игре вылупившиеся черепашки движутся к морю, но постепенно сбиваются с пути — игроку нужно направлять их обратно к воде.",
-        "role": "Разработка концепции сбора черепашьих яиц и реализация мини-игры с корректировкой направления движения черепашек в составе прототипа слотов.",
-        "tech": "Unity, C#, механики слотов, бонусная мини-игра, управление направлением движения."
+        "game": "На слот-машине игрок выигрывает деньги или черепашьи яйца. Каждое собранное яйцо превращается в черепашку, которую нужно спасти в мини-игре. Игрок корректирует направление движения вылупившихся черепашек, помогая им добраться до океана. С ростом уровня черепашки движутся быстрее и вылупляются чаще.",
+        "role": "Придумал идею, концепцию и механики игры, реализовал накопление яиц, управление направлением черепашек и увеличение сложности. Графику создал другой художник.",
+        "tech": "Unity, C#, WebGL; управление движением, появление персонажей, прогрессия сложности, UI."
       },
       "he": {
-        "game": "משחק סלוט בנושא צבי ים שבו אוספים ביצי צבים. במיני־משחק הבונוס הצבים שבקעו נעים לעבר הים אך סוטים בהדרגה מהמסלול; השחקן צריך לכוון אותם בחזרה אל המים.",
-        "role": "פיתוח רעיון איסוף ביצי הצבים ומימוש מיני־משחק של תיקון כיוון התנועה כחלק מאב־טיפוס של משחק סלוט.",
-        "tech": "Unity, C#, מכניקות סלוט, מיני־משחק בונוס, שליטה בכיוון התנועה."
+        "game": "במכונת המזל השחקן זוכה בכסף או בביצי צבים. כל ביצה שנאספה הופכת לצבון שיש להציל במיני־משחק. השחקן מתקן את כיוון תנועתם של הצבונים שבקעו ומסייע להם להגיע לאוקיינוס. עם העלייה בשלבים הצבונים נעים מהר יותר ובוקעים בתדירות גבוהה יותר.",
+        "role": "הגיתי את הרעיון, הקונספט והמכניקות, ומימשתי איסוף ביצים, הכוונת הצבונים ועלייה הדרגתית בקושי. הגרפיקה נוצרה בידי אמן אחר.",
+        "tech": "Unity, C#, WebGL; שליטה בתנועה, הופעת דמויות, התקדמות קושי וממשק משתמש."
       }
     },
     "screenshots": [
@@ -245,55 +245,22 @@
     ],
     "content": {
       "en": {
-        "game": "In development — a modular platform for simple two-player games, designed for WebGL first.",
-        "role": "Designing the application architecture, rooms and game sessions, networking abstractions and independent game modules.",
-        "tech": "Unity, C#, WebGL, WebSocket, EventBus, transport and session abstractions."
+        "game": "Room42 is an in-development platform for simple multiplayer games, initially focused on two players. The current prototype supports creating and joining rooms and exchanging messages between Unity WebGL clients through a WebSocket server. A game lobby, playable titles and mobile support are planned, not yet implemented.",
+        "role": "Independently designed the platform concept and modular networking architecture. Implemented the WebGL-to-WebSocket transport, basic room management and bidirectional message exchange. Development is ongoing.",
+        "tech": "Unity, C#, WebGL, JavaScript, WebSocket, EventBus, modular networking architecture."
       },
       "ru": {
-        "game": "В разработке — модульная платформа для простых игр на двоих с приоритетом WebGL.",
-        "role": "Проектирую архитектуру приложения, комнаты и игровые сессии, сетевые абстракции и независимые игровые модули.",
-        "tech": "Unity, C#, WebGL, WebSocket, EventBus, абстракции транспорта и игровых сессий."
+        "game": "Room42 — разрабатываемая платформа простых многопользовательских игр, прежде всего для двоих. Текущий прототип позволяет создавать комнаты, подключаться к ним и обмениваться сообщениями между клиентами Unity WebGL через WebSocket-сервер. Лобби, полноценные игры и мобильная поддержка пока в планах.",
+        "role": "Самостоятельно разработал концепцию платформы и модульную сетевую архитектуру. Реализовал транспорт WebGL–WebSocket, базовое управление комнатами и двусторонний обмен сообщениями. Разработка продолжается.",
+        "tech": "Unity, C#, WebGL, JavaScript, WebSocket, EventBus, модульная сетевая архитектура."
       },
       "he": {
-        "game": "בפיתוח — פלטפורמה מודולרית למשחקים פשוטים לשני שחקנים, עם WebGL כפלטפורמה ראשונה.",
-        "role": "מתכנן את ארכיטקטורת האפליקציה, חדרים וסשנים, שכבות רשת ומודולי משחק עצמאיים.",
-        "tech": "Unity, C#, WebGL, WebSocket, EventBus וארכיטקטורת transport/session."
+        "game": "Room42 היא פלטפורמה בפיתוח למשחקים מרובי משתתפים פשוטים, בתחילה בעיקר לשני שחקנים. אב־הטיפוס הנוכחי מאפשר ליצור חדרים, להצטרף אליהם ולהחליף הודעות בין לקוחות Unity WebGL דרך שרת WebSocket. לובי, משחקים מלאים ותמיכה בנייד מתוכננים אך טרם מומשו.",
+        "role": "תכננתי באופן עצמאי את קונספט הפלטפורמה ואת ארכיטקטורת הרשת המודולרית. מימשתי תקשורת WebGL–WebSocket, ניהול חדרים בסיסי והעברת הודעות דו־כיוונית. הפיתוח נמשך.",
+        "tech": "Unity, C#, WebGL, JavaScript, WebSocket, EventBus וארכיטקטורת רשת מודולרית."
       }
     },
     "screenshots": [
-    ]
-  },
-  {
-    "id": "pirate",
-    "title": "Pirate Map",
-    "image": "assets/images/pirate.svg",
-    "featured": false,
-    "nda": true,
-    "tags": [
-      "Unity",
-      "C#",
-      "Timing",
-      "Mini-game"
-    ],
-    "content": {
-      "en": {
-        "game": "Collect map fragments, get the pirate drunk and carefully retrieve the map while he sleeps.",
-        "role": "Designed the theme, interaction sequence, timing mechanics and full prototype.",
-        "tech": "Unity, C#, UI, timing and state systems."
-      },
-      "ru": {
-        "game": "Игрок собирает части карты, напаивает пирата и аккуратно забирает карту, пока тот спит.",
-        "role": "Придумал тему, последовательность взаимодействий, механику тайминга и реализовал весь прототип.",
-        "tech": "Unity, C#, UI, тайминги и системы состояний."
-      },
-      "he": {
-        "game": "איסוף חלקי מפה, השקיית הפיראט ולקיחת המפה בזהירות בזמן שהוא ישן.",
-        "role": "עיצבתי את הנושא, רצף האינטראקציות, מכניקת התזמון ומימשתי את אב־הטיפוס המלא.",
-        "tech": "Unity, C#, ממשק משתמש, תזמון ומערכות מצבים."
-      }
-    },
-    "screenshots": [
-      
     ]
   }
 ]

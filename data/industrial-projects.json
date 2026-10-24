@@ -2,7 +2,7 @@
   {
     "id": "khimki-business-center",
     "title": "Business Center — Khimki",
-    "image": "assets/images/industrial.svg",
+    "image": "assets/screenshots/khimki/IMG_01.jpg",
     "tags": [
       "Beckhoff PLC",
       "Reliance SCADA",
@@ -38,7 +38,7 @@
   {
     "id": "kulikovo",
     "title": "Kulikovo Field — Museum Complex",
-    "image": "assets/images/industrial.svg",
+    "image": "assets/screenshots/kulikovo/IMG_01.png",
     "tags": [
       "Beckhoff PLC",
       "Reliance SCADA",
@@ -74,7 +74,7 @@
   {
     "id": "smartgrid",
     "title": "SmartGrid — Skolkovo",
-    "image": "assets/images/industrial.svg",
+    "image": "assets/screenshots/smartgrid/IMG_01.png",
     "tags": [
       "OWEN PLC",
       "Reliance SCADA",
@@ -111,7 +111,7 @@
   {
     "id": "gres",
     "title": "GRES — Krasnoyarsk",
-    "image": "assets/images/industrial.svg",
+    "image": "assets/screenshots/gres/IMG_01.png",
     "tags": [
       "Kinco HMI",
       "Heat Exchange",
